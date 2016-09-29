@@ -1,0 +1,87 @@
+
+/* Standard bord for alle bokser */
+.box{
+	border-style: solid;
+	border-width: 2px;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* Farger for diverse boards */
+.normal{
+	border-color: red;
+}
+.eksamen{
+	border-color: blue;
+}
+.oppg{
+	border-color: orange;
+}
+.delopppg{
+	border-color: green;
+}
+.eksoppg{
+	border-color: purple;
+}
+
+h1 {
+	border-color: #666;
+}
+
+
+/* Eget utseende for eksempel-bokser */
+.eksempel{
+	border-color: grey;
+	background-color: lightgrey;
+}
+
+/* Eget utseende for blockquote */
+blockquote{
+	/* #69F */
+	border-color: #5C8AE6;
+	background-color: #B2CCFF;
+}
+
+/* Eget utseende for kommentarer */
+.comment{
+	border-color: #007A00;
+	background-color: #80E680;
+}
+
+/* Klasse for å angi numerert liste i bokstaver */
+.listorbokst{
+	list-style: upper-alpha;
+}
+
+/* Testing-farger */
+.done{
+	color: green;
+}
+.utdyp{
+	color: orange;
+}
+.solve{
+	color: red;
+}
+
+
+.quick{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 5;
+	background-color: white;
+	margin: 0px;
+}
+
+
+header {
+	width: 90%;
+}
+main {
+	width: 90%;
+}
+
+.klasseTekst {
+    color: blue;
+}
