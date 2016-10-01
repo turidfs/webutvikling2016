@@ -109,6 +109,7 @@
 							<p>Sett opp et prosjekt på Github sammen. Dere skal benytte dette prosjektet i utviklingsarbeidet videre og innleveringen i oblig 3 vil blant annet være en link til Github prosjektet.</p>
                             <p>I denne oppgaven skal dere sette opp et Github prosjekt (repo) og lage en basis struktur for HTML/CSS, mappestruktur og sørge for at alle i gruppa kommer i gang med Github og har tilgang til prosjektet.</p>
 						<h4>Løsningen</h4>
+                    <p>https://github.com/turidfs/zip</p>
 				</div>
 				
 			</section>
