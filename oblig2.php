@@ -93,7 +93,7 @@
 				
 				<!-- Oppgave 2 -->
 				<div class="box oppg" id="oppg2">
-					<h3 class="solve">Oppgave 2</h3>
+					<h3 class="utdyp">Oppgave 2</h3>
 						<h4>Oppgaven</h4>
 							<p>Begynn å arbeide med designet på nettstedet. Dette gjøres ved hjelp av skisser og wireframes, og skal lede frem til et avansert design.</p>
                             <p>Det grafiske designet kommer ikke til å bedømmes men forsøk å gjøre siden så pen som mulig, det vil da være koseligere å jobbe med den. Tenk nøye over hva som er mulig med HTML og CSS og prøv å implementere så mange som mulig avanserte teknikker i planleggingsfasen. Jo bedre jobb dere gjør her jo enklere blir neste oblig.</p>
@@ -101,12 +101,12 @@
                             <p>Designet skal være responsivt og dere skal lage spesifikke design utkast for forskjellige skjermstørrelser. Få frem hvordan siden skal skalere mellom forskjellige skjermstørrelser i skissene. Dere skal også lage en utskriftsstil, så det vil være naturlig å designe opp dette allerede nå.</p>
 						<h4>Løsningen</h4>
                             <p></p>
-                            <p><a href="oppgaver/skisserWireframes.php">En egen side med prosessen frem til disse bildene.</a></p>
+                            <p><a href="oppgaver/skisserHome.php">En egen side med prosessen frem til disse bildene.</a></p>
 				</div>
 				
 				<!-- Oppgave 3 -->
 				<div class="box oppg" id="oppg3">
-					<h3 class="solve">Oppgave 3</h3>
+					<h3 class="utdyp">Oppgave 3</h3>
 						<h4>Oppgaven</h4>
 							<p>Sett opp et prosjekt på Github sammen. Dere skal benytte dette prosjektet i utviklingsarbeidet videre og innleveringen i oblig 3 vil blant annet være en link til Github prosjektet.</p>
                             <p>I denne oppgaven skal dere sette opp et Github prosjekt (repo) og lage en basis struktur for HTML/CSS, mappestruktur og sørge for at alle i gruppa kommer i gang med Github og har tilgang til prosjektet.</p>
