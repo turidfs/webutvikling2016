@@ -81,11 +81,3 @@ header {
 main {
 	width: 90%;
 }
-
-.klasseTekst {
-    color: blue;
-}
-img {
-    max-height: 100vh;
-    max-width: 100%;
-}

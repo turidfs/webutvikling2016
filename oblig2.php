@@ -3,7 +3,7 @@
 	<head>
 		<title>Oblig 2 - Turid Irene Folkestad Sønsteby</title>
 		<meta charset="UTF-8"/>
-		<link href="css/webcss.css" type="text/css" rel="stylesheet" />
+		<link href="css/webcss_v2.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
 		
