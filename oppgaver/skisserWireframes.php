@@ -4,6 +4,12 @@
 		<title>Oblig 2 - Turid Irene Folkestad Sønsteby</title>
 		<meta charset="UTF-8"/>
 		<link href="css/webcss.css" type="text/css" rel="stylesheet" />
+        <style>
+            img {
+                max-height: 100%;
+                max-width: 100%;
+            }
+        </style>
 	</head>
 	<body>
 		
@@ -24,27 +30,66 @@
 			<section class="box normal">
 				
 				<h2>Skisser for Home</h2>
-                <img href="image/homeMobile01.jpg" alt="" />
-                <img href="image/homeTablet01.jpg" alt="" />
-                <img href="image/homeDesktop01.jpg" alt="" />
-                <img href="image/homeDesktop02.jpg" alt="" />
-                <img href="image/homeMobile02.jpg" alt="" />
-                <img href="image/homeDesktop03.jpg" alt="" />
-                <img href="image/homeDesktop04.jpg" alt="" />
-                <img href="image/homeDesktop05.jpg" alt="" />
-                <img href="image/homeDesktop06.jpg" alt="" />
-                <img href="image/homeTablet06.jpg" alt="" />
-                <img href="image/homeMobile06.jpg" alt="" />
-                <img href="image/homePrint01.jpg" alt="" />
-                <img href="image/homePrint02.jpg" alt="" />
-                <img href="image/homeDesktop07.jpg" alt="" />
+                <figure>
+                    <img src="image/homeMobile01.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeTablet01.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeDesktop01.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeDesktop02.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeMobile02.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeDesktop03.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeDesktop04.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeDesktop05.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeDesktop06.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeTablet06.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeMobile06.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homePrint01.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homePrint02.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/homeDesktop07.jpg" alt="" />
+                    <figcaption></figcaption>
+                </figure>
                 
                 <h2>Wireframes for Home</h2>
 				
 			</section>
-            
-            
-            
             
 		</main>
 		
