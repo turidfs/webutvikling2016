@@ -85,3 +85,7 @@ main {
 .klasseTekst {
     color: blue;
 }
+img {
+    max-height: 100vh;
+    max-width: 100%;
+}
