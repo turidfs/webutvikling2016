@@ -33,59 +33,15 @@
 				
             <h2 id="skisser">Skisser for Store</h2>
             <figure>
-                <img src="image/homeMobile01.jpg" alt="" />
+                <img src="image/storeMobile01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeTablet01.jpg" alt="" />
+                <img src="image/storeTablet01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeDesktop01.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeDesktop02.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeMobile02.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeDesktop03.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeDesktop04.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeDesktop05.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeDesktop06.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeTablet06.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeMobile06.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homePrint01.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homePrint02.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeDesktop07.jpg" alt="" />
+                <img src="image/storeDesktop01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
 

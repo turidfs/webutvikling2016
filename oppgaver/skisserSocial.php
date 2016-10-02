@@ -33,59 +33,35 @@
 				
             <h2 id="skisser">Skisser for Social</h2>
             <figure>
-                <img src="image/homeMobile01.jpg" alt="" />
+                <img src="image/socialRabling01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeTablet01.jpg" alt="" />
+                <img src="image/socialRabling02.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeDesktop01.jpg" alt="" />
+                <img src="image/socialMobile01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeDesktop02.jpg" alt="" />
+                <img src="image/socialTablet01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeMobile02.jpg" alt="" />
+                <img src="image/socialDesktop01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeDesktop03.jpg" alt="" />
+                <img src="image/blogMobile01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeDesktop04.jpg" alt="" />
+                <img src="image/blogTablet01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/homeDesktop05.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeDesktop06.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeTablet06.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeMobile06.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homePrint01.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homePrint02.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/homeDesktop07.jpg" alt="" />
+                <img src="image/blogDesktop01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
 
