@@ -53,10 +53,6 @@ blockquote{
 	list-style: upper-alpha;
 }
 
-.listlitenbokst{
-	list-style: lower-alpha;
-}
-
 /* Testing-farger */
 .done{
 	color: green;
@@ -93,4 +89,3 @@ img {
     max-height: 100vh;
     max-width: 100%;
 }
-

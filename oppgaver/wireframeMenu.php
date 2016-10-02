@@ -1,3 +1,5 @@
+<?php include 'sammarbeidOblig2og3.php'; ?>
+
 <div class="box">
     <p>De forskjellige skissene:</p>
     <nav>

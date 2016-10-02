@@ -36,7 +36,7 @@
                 <p>Prosjektet skal jobbes med på Github (dette skal vi snakke om i en forelesning) og Github repoet skal vise at alle har bidratt.</p>
                 <p><strong>Feedback:</strong> Da dere jobber i grupper med deler av denne oppgaven vil det være en sannsynlighet for at dere får deres egen oppgave som oppgave å gi feedback på. Om dette skjer skal dere merke feedbacken med ”N/A” både som positiv og negativ kommentarer, gi 1 stjerne og gi studassleder Thomas Bergby (<a href="mailto:thomas.m.bergby@hiof.no">thomas.m.bergby@hiof.no</a>) beskjed.</p>
             </div>
-            <p>Oppgave 1-3 er gjort i samarbeid med Natalie og Fredrik, innholdt vårt kan derfor være veldig likt i disse oppgavene.</p>
+            <?php include 'sammarbeidOblig2og3.php'; ?>
 		</header>
 		
 		<main class="box">
@@ -137,7 +137,7 @@
 				
 				<!-- Oppgave 4 -->
 				<div class="box eksoppg" id="oppg4">
-					<h3 class="solve">Oppgave 4</h3>
+					<h3 class="utdyp">Oppgave 4</h3>
 						<h4>Oppgaven</h4>
 							<p>Forklar den praktiske forskjell på følgende to måter å linke inn et print-stilark sammen med et annet stilark for visning på skjerm.
 							I hvilke generelle situasjoner ville du brukt hvilken metode:</p>
@@ -154,20 +154,25 @@
 							&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;print.css&quot; media=&quot;print&quot; /&gt;
 							</p>
 						<h4>Løsningen</h4>
+                            <p>Media="all" kan brukes på alle devices.</p>
+                            <p>Media="screen" vil i teorien føre til at stilarket kun hentes inn til pc-skjermer.</p>
+                            <p>Dersom man bruker mediaqueries i et stilark og kun har det ene stilarket vil det være dumt å bruke media="screen" fordi man da risikerer å ikke få lastet inn stilene til andre devices.</p>
+                            <p>Dersom man har egne stilark for hver device (eventruelt med mediaqueries) kan man helt fint bruke media="screen" til stilarket for pc. Ved å gjøre dette kan man potensielt sett spare browseren for tid og ressurser ved at den bare henter og leser de linjene med CSS den behøver. Det kan bli problemer om devicen ikke identifiserer seg riktig, eller om man har satt breakpoints på feil sted.</p>
 				</div>
 				
 				<!-- Oppgave 5 -->
 				<div class="box eksoppg" id="oppg5">
-					<h3 class="solve">Oppgave 5</h3>
+					<h3 class="utdyp">Oppgave 5</h3>
 						<h4>Oppgaven</h4>
 							<p>Hva er den praktiske forskjellen på å endre en tekst til uppercase "manuelt" i HTML fremfor å kjøre text-transform:uppercase i CSS?
 							Hvilken metode bør man benytte (om du mener begge, så angi i hvilke tilfeller)?</p>
 						<h4>Løsningen</h4>
+                            <p>Alt man gjør med tekst og informasjon i HTML burde være en del av innholdet. Altså om ordet normalt skrives med store bokstaver (for eksempel HTML og CSS) så burde det stå med store bokstaver i HTML, men om man vil gjøre en hel setning eller enkelte ord til store bokstaver som design skal det være en del av CSS.</p>
 				</div>
 				
 				<!-- Oppgave 6 -->
 				<div class="box eksoppg" id="oppg6">
-					<h3 class="solve">Oppgave 6</h3>
+					<h3 class="utdyp">Oppgave 6</h3>
 						<h4>Oppgaven</h4>
 							<p>I kurset har vi sett på tre ulike teknikker for å tilpasse en webside til ulike skjermstørrelser;
 							relative måleenheter, medietyper med spesiell vekt på handheld og media queries.</p>
@@ -176,6 +181,25 @@
 									<li>Hvilke av disse teknikkene er relatert til begrepet responsive web design, og hvordan?</li>
 								</ul>
 						<h4>Løsningen</h4>
+                            <dl>
+                                <dt>Relative måleenheter (rem, em, ex, %)</dt><dd>De fleste relative måleenheter er relative til foreldreelementet. Rem er relativ til body.</dd>
+                                <dt>Medietyper</dt><dd>De forskjellinge mediatypene man kan velge er: (<a href="http://www.w3schools.com/tags/att_link_media.asp">hentet fra w3schools</a>)
+                                    <blockquote cite="http://www.w3schools.com/tags/att_link_media.asp">
+                                    <dl>
+                                        <dt>all</dt><dd>Default. Suitable for all devices</dd>
+                                        <dt>aural</dt><dd>Speech synthesizers</dd>
+                                        <dt>braille</dt><dd>Braille feedback devices</dd>
+                                        <dt>handheld</dt><dd>Handheld devices (small screen, limited bandwidth)</dd>
+                                        <dt>projection</dt><dd>Projectors</dd>
+                                        <dt>print</dt><dd>Print preview mode/printed pages</dd>
+                                        <dt>screen</dt><dd>Computer screens</dd>
+                                        <dt>tty</dt><dd>Teletypes and similar media using a fixed-pitch character grid</dd>
+                                        <dt>tv</dt><dd>Television type devices (low resolution, limited scroll ability)</dd>
+                                    </dl>
+                                    </blockquote>
+                                </dd>
+                                <dt>Media queries</dt><dd>I media queries velger vi hvor vi vil ha såkalte breakpoints. Deretter lager vi stil som, gjelder opp til og med første breakpoint. Så er det stil mellom breakpoint 1 og breakpoint 2, og videre mellom alle breakpoint frem til siste breakpoint hvor man lager en egen stil for alt som er større enn dette.</dd>
+                            </dl>
 				</div>
 				
 				<!-- Oppgave 7 -->

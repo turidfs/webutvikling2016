@@ -21,7 +21,6 @@
             <?php include 'webutviklingMenu.php'; ?>
             
             <!-- Litt generell info -->
-            <p>Oppgave 1-3 er gjort i samarbeid med Natalie og Fredrik, innholdt vårt kan derfor være veldig likt i disse oppgavene.</p>
             <?php include 'wireframeMenu.php'; ?>
 		</header>
 		
