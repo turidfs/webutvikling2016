@@ -100,6 +100,8 @@
                             <p>Når du designer er det viktig at du tenker på hvordan opplevelsen blir for brukeren, om menyen er vanskelig å bruke vil mange brukere slutte å benytte nettsiden. En godt gjennomtenkt navigasjonsmeny og brukeropplevelse er derfor svært viktig.</p>
                             <p>Designet skal være responsivt og dere skal lage spesifikke design utkast for forskjellige skjermstørrelser. Få frem hvordan siden skal skalere mellom forskjellige skjermstørrelser i skissene. Dere skal også lage en utskriftsstil, så det vil være naturlig å designe opp dette allerede nå.</p>
 						<h4>Løsningen</h4>
+                            <p></p>
+                            <p><a href="oppgaver/skisserWireframes.php">En egen side med prosessen frem til disse bildene.</a></p>
 				</div>
 				
 				<!-- Oppgave 3 -->
