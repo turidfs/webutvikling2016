@@ -21,7 +21,7 @@
 		-->
 		
 		<header class="box">
-			<h1 class="box">Skisser og Wireframes for Social og Blog</h1>
+			<h1 class="box">Skisser og Wireframes for Tweets</h1>
             <?php include 'webutviklingMenu.php'; ?>
             
             <!-- Litt generell info -->
@@ -31,41 +31,17 @@
 		
 		<main class="box">
 				
-            <h2 id="skisser">Skisser for Social og Blog</h2>
+            <h2 id="skisser">Skisser for Tweets</h2>
             <figure>
-                <img src="image/socialRabling01.jpg" alt="" />
+                <img src="image/tweetsMobile01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/socialRabling02.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/socialMobile01.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/socialTablet01.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/socialDesktop01.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/blogMobile01.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/blogTablet01.jpg" alt="" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/blogDesktop01.jpg" alt="" />
+                <img src="image/tweetsTablet01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
 
-            <h2 id="wireframe">Wireframes for Social og Blog</h2>
+            <h2 id="wireframe">Wireframes for Tweets</h2>
             
 		</main>
 		

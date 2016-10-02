@@ -70,11 +70,16 @@
                             </ul>
                             <p>Det vi skal lage egne sider / undersider for er:</p>
                             <ul>
-                                <li>Musikkvideoer</li>
-                                <li>Album og preview av musikk</li>
-                                <li>Events / tour</li>
-                                <li>Nettbutikk</li>
-                                <li>Nyheter, awards, twitter, blog, forum</li>
+                                <li>About</li>
+                                <li>Tour/Tickets (Events)</li>
+                                <li>Social (Nyheter, awards, twitter, blog, forum)
+                                    <ul>
+                                        <li>Blog</li>
+                                    </ul>
+                                </li>
+                                <li>Tracks (Preview av musikk og musikkvideoer)</li>
+                                <li>Invite us</li>
+                                <li>Shop</li>
                             </ul>
                             <p>På forsiden skal vi vise preview av:</p>
                             <ul>
@@ -85,9 +90,18 @@
                             </ul>
                             <p>Felles for alle sidene er:</p>
                             <ul>
-                                <li>Logo</li>
-                                <li>Meny/undermeny</li>
-                                <li>Subscribe liste</li>
+                                <li>Header
+                                    <ul>
+                                        <li>Logo</li>
+                                        <li>Meny/undermeny</li>
+                                    </ul>
+                                </li>
+                                <li>Footer
+                                    <ul>
+                                        <li>Subscribe liste</li>
+                                        <li>Copyright</li>
+                                    </ul>
+                                </li>
                             </ul>
 				</div>
 				
