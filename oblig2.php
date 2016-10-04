@@ -71,7 +71,7 @@
                             <p>Det vi skal lage egne sider / undersider for er:</p>
                             <ul>
                                 <li>About</li>
-                                <li>Tour/Tickets (Events)</li>
+                                <li>Events (Tour/Tickets)</li>
                                 <li>Social (Nyheter, awards, twitter, blog, forum)
                                     <ul>
                                         <li>Blog</li>

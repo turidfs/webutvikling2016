@@ -17,7 +17,7 @@
 		-->
 		
 		<header class="box">
-			<h1 class="box">Skisser og Wireframes for Tweets og Tracks</h1>
+			<h1 class="box">Skisser og Wireframes for About</h1>
             <?php include 'webutviklingMenu.php'; ?>
             
             <!-- Litt generell info -->
@@ -26,29 +26,21 @@
 		
 		<main class="box">
 				
-            <h2 id="skisser">Skisser for Tweets og Tracks</h2>
+            <h2 id="skisser">Skisser for About</h2>
             <figure>
-                <img src="image/tweetsMobile01.jpg" alt="" />
+                <img src="image/aboutMobile01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/tweetsTablet01.jpg" alt="" />
+                <img src="image/aboutTablet01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
             <figure>
-                <img src="image/tweetsSidebar01.jpg"/>
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/tweetsTablet02.jpg" />
-                <figcaption></figcaption>
-            </figure>
-            <figure>
-                <img src="image/tweetsTablet03.jpg" />
+                <img src="image/aboutDesktop01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
 
-            <h2 id="wireframe">Wireframes for Tweets og Tracks</h2>
+            <h2 id="wireframe">Wireframes for About</h2>
             
 		</main>
 		
