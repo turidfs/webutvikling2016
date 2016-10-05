@@ -211,7 +211,7 @@
 				
 				<!-- Oppgave 7 -->
 				<div class="box eksoppg" id="oppg7">
-					<h3 class="utdyp">Oppgave 7</h3>
+					<h3 class="done">Oppgave 7</h3>
 						<h4>Oppgaven</h4>
 							<p>Forklar kort, og så pressist som mulig, hva RSS er og hva det benyttes til</p>
 						<h4>Løsningen</h4>
