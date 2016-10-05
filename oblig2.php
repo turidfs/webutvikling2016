@@ -107,15 +107,14 @@
 				
 				<!-- Oppgave 2 -->
 				<div class="box oppg" id="oppg2">
-					<h3 class="utdyp">Oppgave 2</h3>
+					<h3 class="done">Oppgave 2</h3>
 						<h4>Oppgaven</h4>
 							<p>Begynn å arbeide med designet på nettstedet. Dette gjøres ved hjelp av skisser og wireframes, og skal lede frem til et avansert design.</p>
                             <p>Det grafiske designet kommer ikke til å bedømmes men forsøk å gjøre siden så pen som mulig, det vil da være koseligere å jobbe med den. Tenk nøye over hva som er mulig med HTML og CSS og prøv å implementere så mange som mulig avanserte teknikker i planleggingsfasen. Jo bedre jobb dere gjør her jo enklere blir neste oblig.</p>
                             <p>Når du designer er det viktig at du tenker på hvordan opplevelsen blir for brukeren, om menyen er vanskelig å bruke vil mange brukere slutte å benytte nettsiden. En godt gjennomtenkt navigasjonsmeny og brukeropplevelse er derfor svært viktig.</p>
                             <p>Designet skal være responsivt og dere skal lage spesifikke design utkast for forskjellige skjermstørrelser. Få frem hvordan siden skal skalere mellom forskjellige skjermstørrelser i skissene. Dere skal også lage en utskriftsstil, så det vil være naturlig å designe opp dette allerede nå.</p>
 						<h4>Løsningen</h4>
-                            <p></p>
-                            <p><a href="oppgaver/skisserHome.php">En egen side med prosessen frem til disse bildene.</a></p>
+                            <p><a href="oppgaver/skisserHome.php">En egen side med design prosessen.</a></p>
 				</div>
 				
 				<!-- Oppgave 3 -->
@@ -203,6 +202,7 @@
                                         <dt>tv</dt><dd>Television type devices (low resolution, limited scroll ability)</dd>
                                     </dl>
                                     </blockquote>
+                                Det er først og fremst all og print vi bruker.
                                 </dd>
                                 <dt>Media queries</dt><dd><img src="image/breakpoints.png" align="right" />I media queries velger vi hvor vi vil ha såkalte breakpoints. Deretter lager vi stil som, gjelder opp til og med første breakpoint. Så er det stil mellom breakpoint 1 og breakpoint 2, og videre mellom alle breakpoint frem til siste breakpoint hvor man lager en egen stil for alt som er større enn dette. Breakpointene som er i bildet er en ca, og hvor det er best å sette breakpoints både varierer fra side til side og endrer seg med tiden. Den beste måten å sette breakpoints på er ved å begynne med designet for mobil, vise dette med så liten bredde i nettleseren som mulig, og deretter gradvis øke bredden på nettleseren til designet ikke lenger ser bra ut, så setter vi denne størrelsen som første breakpoint. Så gjør vi endringer i designet slik at det gjelder over første breakpoint, deretter gjentar vi prosessen frem til vi har funnet alle våre breakpoints.</dd>
                             </dl>
@@ -216,7 +216,7 @@
 							<p>Forklar kort, og så pressist som mulig, hva RSS er og hva det benyttes til</p>
 						<h4>Løsningen</h4>
                             <dl>
-                                <dt>RSS - Rich Site Summary (Really Simple Syndication)</dt><dd>Fokuserer på maskinlesbarhet. Brukes til å si noe om når siden sist ble oppdatert og hvordan (hva som ble lagt til, f.eks. en blog-post). Abonnere på nettsider.</dd>
+                                <dt>RSS - Rich Site Summary (Really Simple Syndication)</dt><dd>Idéen bak dette er at man skal kunne bli informert om når nettsider oppdateres istedenfor å måtte sjekke selv. Fokuserer på maskinlesbarhet fordi kommunikasjonen først foregår mellom maskiner. Brukere kan ved hjelp av rss abonnere på nettsiden vår, vi forteller en maskin når vi har gjort endringer og hva slags endringer (hva som ble lagt til, f.eks. en blog-post eller en nyhetsartikkel), slik at maskinen kan fortelle brukeren hva og når noe er oppdatert.</dd>
                             </dl>
 				</div>
                 
