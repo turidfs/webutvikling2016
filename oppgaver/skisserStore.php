@@ -12,12 +12,8 @@
 	</head>
 	<body>
 		
-		<!-- Memos to self: (aka, den som retter behøver ikke se på dette, det er bare noe jeg eventuelt har glemt å fjerne.)
-		En div for hver oppgave, en div for hver del-oppgave.
-		-->
-		
 		<header class="box">
-			<h1 class="box">Skisser og Wireframes for Store</h1>
+			<h1 class="box">Skisser for Store</h1>
             <?php include 'webutviklingMenu.php'; ?>
             
             <!-- Litt generell info -->
@@ -25,8 +21,6 @@
 		</header>
 		
 		<main class="box">
-				
-            <h2 id="skisser">Skisser for Store</h2>
             <figure>
                 <img src="image/storeMobile01.jpg" alt="" />
                 <figcaption></figcaption>
@@ -39,9 +33,6 @@
                 <img src="image/storeDesktop01.jpg" alt="" />
                 <figcaption></figcaption>
             </figure>
-
-            <h2 id="wireframe">Wireframes for Store</h2>
-            
 		</main>
 		
 		<aside class="quick box">

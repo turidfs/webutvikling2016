@@ -12,12 +12,8 @@
 	</head>
 	<body>
 		
-		<!-- Memos to self: (aka, den som retter behøver ikke se på dette, det er bare noe jeg eventuelt har glemt å fjerne.)
-		En div for hver oppgave, en div for hver del-oppgave.
-		-->
-		
 		<header class="box">
-			<h1 class="box">Skisser og Wireframes for Tweets og Tracks</h1>
+			<h1 class="box">Skisser for Tweets og Tracks</h1>
             <?php include 'webutviklingMenu.php'; ?>
             
             <!-- Litt generell info -->
@@ -25,8 +21,6 @@
 		</header>
 		
 		<main class="box">
-				
-            <h2 id="skisser">Skisser for Tweets og Tracks</h2>
             <figure>
                 <img src="image/tweetsMobile01.jpg" alt="" />
                 <figcaption></figcaption>
@@ -47,16 +41,12 @@
                 <img src="image/tweetsTablet03.jpg" />
                 <figcaption></figcaption>
             </figure>
-
-            <h2 id="wireframe">Wireframes for Tweets og Tracks</h2>
-            
 		</main>
 		
 		<aside class="quick box">
 			<ul>
 				<li><a href="#top">Top</a></li>
-				<li><a href="#skisser">Skisser</a></li>
-				<li><a href="#wireframe">Wireframes</a></li>
+                <li><a href="#skisser">Skisser</a></li>
 			</ul>
 		</aside>
 		
