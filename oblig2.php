@@ -6,11 +6,6 @@
 		<link href="css/webcss_v2.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
-		
-		<!-- Memos to self: (aka, den som retter behøver ikke se på dette, det er bare noe jeg eventuelt har glemt å fjerne.)
-		En div for hver oppgave, en div for hver del-oppgave.
-		-->
-		
 		<header class="box">
 			<h1 class="box">Oblig 2</h1>
             <?php include 'webutviklingMenu.php'; ?>
@@ -47,7 +42,7 @@
 				
 				<!-- Oppgave 1 -->
 				<div class="box oppg" id="oppg1">
-					<h3 class="utdyp">Oppgave 1</h3>
+					<h3 class="done">Oppgave 1</h3>
 						<h4>Oppgaven</h4>
 							<p>Lag en plan for nettsiden og finn ut hva den skal handle om. Produser/innhent innholdet dere trenger for å lage nettsiden (denne gangen fungerer ikke lorem ipsum). Vurder målgruppen for nettsiden og bestem utifra dette hva som skal være med på siden. Lage en plan for designet på nettsiden og finn frem til ressurser dere trenger i forbindelse med designet.</p>
                             <p>I denne oppgaven trenger dere ikke å tenke på opphavsrett så dere kan fritt hente bilder, tekst og innhold fra andre steder på nett om det passer.</p>
@@ -77,8 +72,13 @@
                                         <li>Blog</li>
                                     </ul>
                                 </li>
-                                <li>Tracks (Preview av musikk og musikkvideoer)</li>
-                                <li>Invite us</li>
+                                <li>Media
+                                    <ul>
+                                        <li>Tracks</li>
+                                        <li>Musikkvideoer</li>
+                                        <li>Bilder</li>
+                                    </ul>
+                                </li>
                                 <li>Shop</li>
                             </ul>
                             <p>På forsiden skal vi vise preview av:</p>
@@ -120,7 +120,7 @@
 				
 				<!-- Oppgave 3 -->
 				<div class="box oppg" id="oppg3">
-					<h3 class="utdyp">Oppgave 3</h3>
+					<h3 class="done">Oppgave 3</h3>
 						<h4>Oppgaven</h4>
 							<p>Sett opp et prosjekt på Github sammen. Dere skal benytte dette prosjektet i utviklingsarbeidet videre og innleveringen i oblig 3 vil blant annet være en link til Github prosjektet.</p>
                             <p>I denne oppgaven skal dere sette opp et Github prosjekt (repo) og lage en basis struktur for HTML/CSS, mappestruktur og sørge for at alle i gruppa kommer i gang med Github og har tilgang til prosjektet.</p>
@@ -137,7 +137,7 @@
 				
 				<!-- Oppgave 4 -->
 				<div class="box eksoppg" id="oppg4">
-					<h3 class="utdyp">Oppgave 4</h3>
+					<h3 class="done">Oppgave 4</h3>
 						<h4>Oppgaven</h4>
 							<p>Forklar den praktiske forskjell på følgende to måter å linke inn et print-stilark sammen med et annet stilark for visning på skjerm.
 							I hvilke generelle situasjoner ville du brukt hvilken metode:</p>
@@ -154,25 +154,30 @@
 							&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;print.css&quot; media=&quot;print&quot; /&gt;
 							</p>
 						<h4>Løsningen</h4>
-                            <p>Media="all" kan brukes på alle devices.</p>
+                            <h5>Screen</h5>
                             <p>Media="screen" vil i teorien føre til at stilarket kun hentes inn til pc-skjermer.</p>
-                            <p>Dersom man bruker mediaqueries i et stilark og kun har det ene stilarket vil det være dumt å bruke media="screen" fordi man da risikerer å ikke få lastet inn stilene til andre devices.</p>
-                            <p>Dersom man har egne stilark for hver device (eventruelt med mediaqueries) kan man helt fint bruke media="screen" til stilarket for pc. Ved å gjøre dette kan man potensielt sett spare browseren for tid og ressurser ved at den bare henter og leser de linjene med CSS den behøver. Det kan bli problemer om devicen ikke identifiserer seg riktig, eller om man har satt breakpoints på feil sted.</p>
+                            <p>Dersom man bruker mediaqueries i et stilark og kun har det ene stilarket vil det være dumt å bruke media="screen" fordi man da risikerer å ikke få lastet inn stilene til andre devices. Det samme gjelder da om man ønsker å bruke større eller mindre deler av samme stilen i både screen og print, f.eks. farger.</p>
+                            <p>Dersom man har egne stilark for hver device (eventruelt med media queries) kan man helt fint bruke media="screen" til stilarket for pc. Ved å gjøre dette kan man potensielt sett spare browseren for tid og ressurser ved at den bare henter og leser de linjene med CSS den behøver. Dette er imidlertid ikke en helt sikker metode fordi det kan bli problemer om devicen ikke identifiserer seg riktig, eller om man har satt breakpoints på feil sted.</p>
+                            <h5>All</h5>
+                            <p>Media="all" kan brukes på alle devices.</p>
+                            <p>Dersom man har mye stiler som f.eks. størrelsesforhold og farger som man vil beholde fra nettleser til print er det best å bruke media="all" slik at man slipper å gjenta alt dette i print stilarket.</p>
+                            <h5>Forskjellen</h5>
+                            <p>Forskjellen er først og fremst at med media="all" vil print arve stil fra det andre stilarket og med media="screen" vil ikke print arve noe.</p>
 				</div>
 				
 				<!-- Oppgave 5 -->
 				<div class="box eksoppg" id="oppg5">
-					<h3 class="utdyp">Oppgave 5</h3>
+					<h3 class="done">Oppgave 5</h3>
 						<h4>Oppgaven</h4>
 							<p>Hva er den praktiske forskjellen på å endre en tekst til uppercase "manuelt" i HTML fremfor å kjøre text-transform:uppercase i CSS?
 							Hvilken metode bør man benytte (om du mener begge, så angi i hvilke tilfeller)?</p>
 						<h4>Løsningen</h4>
-                            <p>Alt man gjør med tekst og informasjon i HTML burde være en del av innholdet. Altså om ordet normalt skrives med store bokstaver (for eksempel HTML og CSS) så burde det stå med store bokstaver i HTML, men om man vil gjøre en hel setning eller enkelte ord til store bokstaver som design skal det være en del av CSS.</p>
+                            <p>Alt man gjør med tekst og informasjon i HTML burde være en del av innholdet. Altså om ordet normalt skrives med store bokstaver (for eksempel HTML og CSS) så burde det stå med store bokstaver i HTML, men om man vil gjøre en hel setning eller enkelte ord til store bokstaver som design skal det være en del av CSS. Dersom man endrer teksten til store bokstaver i html vil man "skrike" den ut, og man mister også det orginale oppsettet med små og store bokstaver slik at det kan bli vanskelig å komme tilbake til dette igjen.</p>
 				</div>
 				
 				<!-- Oppgave 6 -->
 				<div class="box eksoppg" id="oppg6">
-					<h3 class="utdyp">Oppgave 6</h3>
+					<h3 class="done">Oppgave 6</h3>
 						<h4>Oppgaven</h4>
 							<p>I kurset har vi sett på tre ulike teknikker for å tilpasse en webside til ulike skjermstørrelser;
 							relative måleenheter, medietyper med spesiell vekt på handheld og media queries.</p>
@@ -181,8 +186,9 @@
 									<li>Hvilke av disse teknikkene er relatert til begrepet responsive web design, og hvordan?</li>
 								</ul>
 						<h4>Løsningen</h4>
+                            <p>Alle disse teknikkene er relatert til responsivt webdesign. Vi bruker først og fremst medietyper og/eller media queries for å si noe om hvilke størrelser og/eller enheter vi vil lage design for. Etter at vi har definert hvilke størrelser vi vil lage design for (f.eks. mobil ca 320px, tablet ca 768px, pc ca 1200px) lager vi noe felles og noe forskjellig design for disse. Farger og relativ tekststørrelse kan som oftest brukes likt på alle enheter/størrelser, imens størrelsen på boksene i hovedsak burde variere. F.eks kan vi ha en "kolonne" på mobil, 2 "kolonner" på tablet og 3-4 "kolonner" på pc.</p>
                             <dl>
-                                <dt>Relative måleenheter (rem, em, ex, %)</dt><dd>De fleste relative måleenheter er relative til foreldreelementet. Rem er relativ til body.</dd>
+                                <dt>Relative måleenheter (rem, em, ex, %)</dt><dd>De fleste relative måleenheter er relative til foreldreelementet. Rem er relativ til body. Hvis vi setter en prosent på en p tagg som ligger i en article i en section i body, så henter vi størrelsen i body (stort sett angitt med px), deretter kan vi redusere/øke størrelsen i section, så reduserer/øker vi den i article og deretter reduserer/øker vi den igjen i p taggen, det samme skjer hvis vi bruker em, men det vil ikke skje i rem fordi den er relativ til body uansett hvor mange foreldre elementer det er. Hvis vi setter rem på en p tagg i en article i en section i body, så henter vi fortsatt størrelsen fra body til section, men vi henter også størrelsen fra body til article og p taggen, så hvor mye størrelsen er redusert eller økt i foreldreelementene har ingen betydning for størrelsen på teksten i p taggen om vi bruker rem.</dd>
                                 <dt>Medietyper</dt><dd>De forskjellinge mediatypene man kan velge er: (<a href="http://www.w3schools.com/tags/att_link_media.asp">hentet fra w3schools</a>)
                                     <blockquote cite="http://www.w3schools.com/tags/att_link_media.asp">
                                     <dl>
@@ -198,21 +204,25 @@
                                     </dl>
                                     </blockquote>
                                 </dd>
-                                <dt>Media queries</dt><dd>I media queries velger vi hvor vi vil ha såkalte breakpoints. Deretter lager vi stil som, gjelder opp til og med første breakpoint. Så er det stil mellom breakpoint 1 og breakpoint 2, og videre mellom alle breakpoint frem til siste breakpoint hvor man lager en egen stil for alt som er større enn dette.</dd>
+                                <dt>Media queries</dt><dd><img src="image/breakpoints.png" align="right" />I media queries velger vi hvor vi vil ha såkalte breakpoints. Deretter lager vi stil som, gjelder opp til og med første breakpoint. Så er det stil mellom breakpoint 1 og breakpoint 2, og videre mellom alle breakpoint frem til siste breakpoint hvor man lager en egen stil for alt som er større enn dette. Breakpointene som er i bildet er en ca, og hvor det er best å sette breakpoints både varierer fra side til side og endrer seg med tiden. Den beste måten å sette breakpoints på er ved å begynne med designet for mobil, vise dette med så liten bredde i nettleseren som mulig, og deretter gradvis øke bredden på nettleseren til designet ikke lenger ser bra ut, så setter vi denne størrelsen som første breakpoint. Så gjør vi endringer i designet slik at det gjelder over første breakpoint, deretter gjentar vi prosessen frem til vi har funnet alle våre breakpoints.</dd>
                             </dl>
+                            
 				</div>
 				
 				<!-- Oppgave 7 -->
 				<div class="box eksoppg" id="oppg7">
-					<h3 class="solve">Oppgave 7</h3>
+					<h3 class="utdyp">Oppgave 7</h3>
 						<h4>Oppgaven</h4>
 							<p>Forklar kort, og så pressist som mulig, hva RSS er og hva det benyttes til</p>
 						<h4>Løsningen</h4>
+                            <dl>
+                                <dt>RSS - Rich Site Summary (Really Simple Syndication)</dt><dd>Fokuserer på maskinlesbarhet. Brukes til å si noe om når siden sist ble oppdatert og hvordan (hva som ble lagt til, f.eks. en blog-post). Abonnere på nettsider.</dd>
+                            </dl>
 				</div>
                 
                 <!-- Oppgave 8 -->
 				<div class="box eksoppg" id="oppg8">
-					<h3 class="utdyp">Oppgave 8</h3>
+					<h3 class="done">Oppgave 8</h3>
 						<h4>Oppgaven</h4>
 							<p>Hvilken effekt/hensikt har hver av følgende fire tegnsekvenser i HTML:</p>
                             <ul>
@@ -224,14 +234,14 @@
 						<h4>Løsningen</h4>
                             <p>Felles for alle tegnene er at de er escape-characters og er brukt til å skrive html-kode i sin opprinnelige form.</p>
                             <dl>
-                                <dt>&amp;lt;</dt>
-                                    <dd>Gir tegnet &lt;. Hvis man bruker tegnet direkte uten å bruke escape-characters vil en nettleser, skjermleser eller lignende kunne tro at man forsøker å åpne en tagg.</dd>
-                                <dt>&amp;gt;</dt>
-                                    <dd>Gir tegnet &gt;. Hvis man bruker tegnet direkte uten å bruke escape-characters vil en nettleser, skjermleser eller lignende kunne tro at man forsøker å lukke en tagg.</dd>
-                                <dt>&amp;amp;</dt>
-                                    <dd>Gir tegnet &amp;. Dette tegnet var ikke i utgangspunktet et problem i html, men man laget et problem da man begynte å bruke det for å ha en løsning på andre tegn som var et problem.</dd>
-                                <dt>&amp;quot;</dt>
-                                    <dd>Gir tegnet &quot;. Dette er ikke noe særlig brukt rett i elementer, men vi må bruke det dersom vi skal ha et eller flere quote-marks i f.eks. et attributt.</dd>
+                                <dt>&amp;lt; gir tegnet &lt;</dt>
+                                    <dd>Hvis man bruker tegnet direkte uten å bruke escape-characters vil en nettleser, skjermleser eller lignende kunne tro at man forsøker å åpne en tagg.</dd>
+                                <dt>&amp;gt; gir tegnet &gt;</dt>
+                                    <dd>Hvis man bruker tegnet direkte uten å bruke escape-characters vil en nettleser, skjermleser eller lignende kunne tro at man forsøker å lukke en tagg.</dd>
+                                <dt>&amp;amp; gir tegnet &amp;</dt>
+                                    <dd>Dette tegnet var ikke i utgangspunktet et problem i html, men man laget et problem da man begynte å bruke det for å ha en løsning på andre tegn som var et problem.</dd>
+                                <dt>&amp;quot; gir tegnet &quot;</dt>
+                                    <dd>Dette er ikke noe særlig brukt rett i elementer, men vi må bruke det dersom vi skal ha et eller flere quote-marks i f.eks. et attributt.</dd>
                             </dl>
 				</div>
 				
