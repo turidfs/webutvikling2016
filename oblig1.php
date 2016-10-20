@@ -4,7 +4,7 @@
 	<head>
 		<title>Oblig 1 - Turid Irene Folkestad Sønsteby</title>
 		<meta charset="UTF-8"/>
-		<link href="css/webcss.css" type="text/css" rel="stylesheet" />
+		<link href="css/webcss_v1.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
 		<header id="top" class="box">
@@ -53,6 +53,13 @@
                                     </ul>
                                 </li>
                             </ul>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>bra, går grundig inn i feil.</p>
+                        <h6>Student, positivt</h6>
+                        <p>Bra forklart og skrevet i oppgave 1-3 og 6.</p>
+                    </div>
 				</article>
 				
 				<!-- Oppgave 2 -->
@@ -67,6 +74,13 @@
                                 <li>Error: "No p element in scope but a p end tag seen." - "From line 15, column 4475; to line 15, column 4478" - "pan&gt;&lt;/div&gt;<span class="solve">&lt;/p&gt;</span>&lt;ul cl" - Jeg skulle gjerne ha lett etter denne p-taggen, men linje 15 går over 3 sider scrolling i nettleseren min, så det gidder jeg ikke.. Feilen er at p-taggen avsluttes enten uten å ha blitt påbegynt. Denne feilen gjentas 4 ganger.</li>
                                 <li>Error: "Element div is missing one or more of the following attributes: role." - Her klages det over at det ikke er klart for en skjermleser hvilken rolle denne div'en har.</li>
                             </ul>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>bra, går grundig inn i feil.</p>
+                        <h6>Student, positivt</h6>
+                        <p>Bra forklart og skrevet i oppgave 1-3 og 6.</p>
+                    </div>
 				</article>
 				
 				<!-- Oppgave 3 -->
@@ -88,6 +102,15 @@
                                 <dt>Klasse vs ID - Forskjell og bruk</dt><dd>En ID brukes kun på et element (i html-dokumentet). En klasse kan brukes på flere elementer, og som jeg nevnte bruker vi da dette når vi vil gjøre noe flere ganger (f.eks. sette en bestemt type border rundt noe).</dd>
                                 <dt>Multiple classes</dt><dd>Jeg har selv brukt flere klasser her for å få lik border rundt forskjellige oppgaver etc, men forskjellig farge. Klassen "<span class="klasseTekst">box</span>" er generelt sett for border, padding og margin og klassene som setter farger på borders er "<span class="klasseTekst">oppg</span>" og "<span class="klasseTekst">normal</span>". Hvis jeg bare hadde skullet bruke en klasse for hvert element hadde jeg måttet gjenta alt fra klassen "<span class="klasseTekst">box</span>" i klassene "<span class="klasseTekst">oppg</span>" og "<span class="klasseTekst">normal</span>".</dd>
                             </dl>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>forstår essensen.</p>
+                        <h6>Admin, negativt</h6>
+                        <p>Klasse og ID bør utdypes. "når vi vil gjøre noe" er ikke særlig beskrivende. Klasser og id er noe vi tilegner elementer i html, for å så kunne hente de inn i css for å style dem. vil man at flere ting skal styles likt, brukes class="eks" på alle elementene. id brukes der et element skal styles generisk.</p>
+                        <h6>Student, positivt</h6>
+                        <p>Bra forklart og skrevet i oppgave 1-3 og 6.</p>
+                    </div>
 				</article>
 				
 				<!-- Oppgave 4 -->
@@ -105,6 +128,15 @@
                         <figcaption>Illustrasjonsbilde for box model</figcaption>
                         <img src="image/box-model.gif" alt="Eksempelbilde for box model">
                     </figure>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>god kontroll på box model.</p>
+                        <h6>Student, positivt</h6>
+                        <p>Oppgave 4 viser tydelig at du har jobbet med bokser. Viser at du kan sette bokser over hverandre osv.</p>
+                        <h6>Student, negativt</h6>
+                        <p>I oppgave 4 var det litt rotete, og her kunne du satt det opp på en måte som viser at du kan plassere boksene med tekst sånn at det ser ryddig og ordentelig ut, kunne også vist at du kan bruke andre border.</p>
+                    </div>
 				</article>
 				
 				<!-- Oppgave 5 -->
@@ -116,6 +148,17 @@
                         <p>Tips, det finnes metoder i dag for å få til en perfekt midtstilling av elementer både horisontalt og vertikalt. Vi har ikke snakket om dette ennå men metoden skal enkelt kunne finnes ved et google søk.</p>
 						<h4>Løsningen</h4>
                             <a href="oppgaver/bildeposisjonering.php"><p>Egen side med bildeposisjonering</p></a>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>bra, bilde sentrert.</p>
+                        <h6>Admin, negativt</h6>
+                        <p>bilde følger med når jeg trekker sammen siden horisontalt. bilde bør "stå fast" når man trekker sammen siden på den måten da resten av elementene på siden din gjør det.</p>
+                        <h6>Student, positivt</h6>
+                        <p>Oppgave 5 er bildet midtstilt med full skjerm.</p>
+                        <h6>Student, negativt</h6>
+                        <p>I oppgave 5 blir ikke bildet midstilt når du minsker vinduet, dette kan du løse med å skalere ned bildet til en viss % i forhold til nettleserens vindu.</p>
+                    </div>
 				</article>
 				
 				<!-- Oppgave 6 -->
@@ -141,6 +184,15 @@
                                 <dt>time</dt><dd>Brukes for å fortelle at det handler om en spesifikk tid. Om man vil at en maskin skal kunne forstå innholdet bruker man attributtet datetime.</dd>
                                 <dt>nesting/nøsting av section og article</dt><dd>Vi kan ikke bruke definisjonen på article og section for å bestemme hvordan de skal nøstes / ikke nøstes i hverandre. Man kan ha article i article, section i section, section i article, article i section, og hva man enn måtte ønske.</dd>
                             </dl>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>god oversikt over semantiske tagger.</p>
+                        <h6>Admin, negativt</h6>
+                        <p>ikke beskrevet forskjell på bruk av semantisk tag og den gamle modellen der man bruker div'er.</p>
+                        <h6>Student, positivt</h6>
+                        <p>Bra forklart og skrevet i oppgave 1-3 og 6.</p>
+                    </div>
 				</article>
                 
                 <!-- Oppgave 7 -->
@@ -153,6 +205,13 @@
                             <p><a href="oppgaver/demoContent.php">Egen side med demo content</a> (Warning: This might hurt your eyes, sorry =D)</p>
                     <p>Jeg får advarsler om at details og summary ikke alltid fungerer, og at jeg burde sette språket for html-dokumentet på engelsk. Jeg har satt språket til norsk bokmål, og for de delene der jeg bruker engelsk tekst har jeg satt lang="en". Jeg får ingen errors og heller ingen advarsler utenom dette.</p>
                     <p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fwebutvikling2016%2Foppgaver%2FdemoContent.php" target="_blank">Validering av Demo Content</a> (Åpner i ny fane.)</p>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, negativt</h6>
+                        <p>rotete kode. bruk innrykk på tekst også. husk at du nødvendigvis ikke trenger sette id/class på semantiske tagger. du kan hente disse rett inn i style. </p>
+                        <h6>Student, positivt</h6>
+                        <p>i oppgave 7 og 8 har du fått frem mange css3 funksjoner og jobbet en del med siden.</p>
+                    </div>
 				</article>
                 
                 <!-- Oppgave 8 -->
@@ -185,6 +244,15 @@
                                 <li>User Interface</li>
                             </ul>
                             <p>Har skrevet litt om hva jeg bruker når sånn omtrent der jeg har brukt det, så det skal bli litt lettere å finne frem i koden.</p>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>leker deg med css, både css3 og andre stiler i css.</p>
+                        <h6>Student, positivt</h6>
+                        <p>i oppgave 7 og 8 har du fått frem mange css3 funksjoner og jobbet en del med siden.</p>
+                        <h6>Student, negativt</h6>
+                        <p>Det er kunne vært tydelig gjort litt bedre hva du har brukt av css3 i oppgave 8.</p>
+                    </div>
 				</article>
 				
 			</section>

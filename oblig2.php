@@ -103,6 +103,13 @@
                                     </ul>
                                 </li>
                             </ul>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>Greit gjennomført</p>
+                        <h6>Student, positivt</h6>
+                        <p>oppgave 1-3 bra</p>
+                    </div>
 				</div>
 				
 				<!-- Oppgave 2 -->
@@ -115,6 +122,13 @@
                             <p>Designet skal være responsivt og dere skal lage spesifikke design utkast for forskjellige skjermstørrelser. Få frem hvordan siden skal skalere mellom forskjellige skjermstørrelser i skissene. Dere skal også lage en utskriftsstil, så det vil være naturlig å designe opp dette allerede nå.</p>
 						<h4>Løsningen</h4>
                             <p><a href="oppgaver/skisserHome.php">En egen side med design prosessen.</a></p>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>Ser en masse skisser, det er bra. Men hadde vært godt om dere hadde inkludert litt ideer laget på nett også. Blir litt mer oversiktlig på den måten. Skulle også gjerne ha sett et forslag på en navigasjonsmeny.</p>
+                        <h6>Student, positivt</h6>
+                        <p>oppgave 1-3 bra</p>
+                    </div>
 				</div>
 				
 				<!-- Oppgave 3 -->
@@ -125,6 +139,13 @@
                             <p>I denne oppgaven skal dere sette opp et Github prosjekt (repo) og lage en basis struktur for HTML/CSS, mappestruktur og sørge for at alle i gruppa kommer i gang med Github og har tilgang til prosjektet.</p>
 						<h4>Løsningen</h4>
                             <p>Her er link til GitHub prosjektet vårt: <a href="https://github.com/turidfs/zip">https://github.com/turidfs/zip</a></p>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>Ok. Pass på at alle bidrar i oblig 3 da vi må se at alle har gjort sin del. Om dette blir vanskelig må dere legge til et skriv eller si ifra at mye gjøres fra en spesifikk pc mer enn en annen.</p>
+                        <h6>Student, positivt</h6>
+                        <p>oppgave 1-3 bra</p>
+                    </div>
 				</div>
 				
 			</section>
@@ -162,6 +183,13 @@
                             <p>Dersom man har mye stiler som f.eks. størrelsesforhold og farger som man vil beholde fra nettleser til print er det best å bruke media="all" slik at man slipper å gjenta alt dette i print stilarket.</p>
                             <h5>Forskjellen</h5>
                             <p>Forskjellen er først og fremst at med media="all" vil print arve stil fra det andre stilarket og med media="screen" vil ikke print arve noe.</p>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>Godt gjennomført og bra beskrevet. Tatt med mye fint her.</p>
+                        <h6>Student, positivt</h6>
+                        <p>Oppgave 4 bra skrevet og gjennomført</p>
+                    </div>
 				</div>
 				
 				<!-- Oppgave 5 -->
@@ -172,6 +200,13 @@
 							Hvilken metode bør man benytte (om du mener begge, så angi i hvilke tilfeller)?</p>
 						<h4>Løsningen</h4>
                             <p>Alt man gjør med tekst og informasjon i HTML burde være en del av innholdet. Altså om ordet normalt skrives med store bokstaver (for eksempel HTML og CSS) så burde det stå med store bokstaver i HTML, men om man vil gjøre en hel setning eller enkelte ord til store bokstaver som design skal det være en del av CSS. Dersom man endrer teksten til store bokstaver i html vil man "skrike" den ut, og man mister også det orginale oppsettet med små og store bokstaver slik at det kan bli vanskelig å komme tilbake til dette igjen.</p>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>Riktig, litt vanskelig formulert, men du svarer forsåvidt riktig.</p>
+                        <h6>Student, positivt</h6>
+                        <p>Oppgave 5 bra gjennomført</p>
+                    </div>
 				</div>
 				
 				<!-- Oppgave 6 -->
@@ -206,6 +241,15 @@
                                 </dd>
                                 <dt>Media queries</dt><dd><img src="image/breakpoints.png" align="right" />I media queries velger vi hvor vi vil ha såkalte breakpoints. Deretter lager vi stil som, gjelder opp til og med første breakpoint. Så er det stil mellom breakpoint 1 og breakpoint 2, og videre mellom alle breakpoint frem til siste breakpoint hvor man lager en egen stil for alt som er større enn dette. Breakpointene som er i bildet er en ca, og hvor det er best å sette breakpoints både varierer fra side til side og endrer seg med tiden. Den beste måten å sette breakpoints på er ved å begynne med designet for mobil, vise dette med så liten bredde i nettleseren som mulig, og deretter gradvis øke bredden på nettleseren til designet ikke lenger ser bra ut, så setter vi denne størrelsen som første breakpoint. Så gjør vi endringer i designet slik at det gjelder over første breakpoint, deretter gjentar vi prosessen frem til vi har funnet alle våre breakpoints.</dd>
                             </dl>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>Mye bra her. Godt forklart og bra at du har tatt med flere medietyper enn hva oppgaven spurte om.</p>
+                        <h6>Admin, negativt</h6>
+                        <p>Du glemte å svare på oppgave b? Selv om det er mer enn nok i besvarelsen ser jeg ikke en forklaring som relaterer media queries med responsive web design.</p>
+                        <h6>Student, positivt</h6>
+                        <p>resten er også bra gjennomført og svarene er fortstålige</p>
+                    </div>
                             
 				</div>
 				
@@ -218,6 +262,13 @@
                             <dl>
                                 <dt>RSS - Rich Site Summary (Really Simple Syndication)</dt><dd>Idéen bak dette er at man skal kunne bli informert om når nettsider oppdateres istedenfor å måtte sjekke selv. Fokuserer på maskinlesbarhet fordi kommunikasjonen først foregår mellom maskiner. Brukere kan ved hjelp av rss abonnere på nettsiden vår, vi forteller en maskin når vi har gjort endringer og hva slags endringer (hva som ble lagt til, f.eks. en blog-post eller en nyhetsartikkel), slik at maskinen kan fortelle brukeren hva og når noe er oppdatert.</dd>
                             </dl>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>Grei besvarelse, men kunne vært enda mer presis og kortere.</p>
+                        <h6>Student, positivt</h6>
+                        <p>resten er også bra gjennomført og svarene er fortstålige</p>
+                    </div>
 				</div>
                 
                 <!-- Oppgave 8 -->
@@ -243,6 +294,13 @@
                                 <dt>&amp;quot; gir tegnet &quot;</dt>
                                     <dd>Dette er ikke noe særlig brukt rett i elementer, men vi må bruke det dersom vi skal ha et eller flere quote-marks i f.eks. et attributt.</dd>
                             </dl>
+                    <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p>Bra! Flott at du forklarer i tillegg.</p>
+                        <h6>Student, positivt</h6>
+                        <p>resten er også bra gjennomført og svarene er fortstålige</p>
+                    </div>
 				</div>
 				
 			</section>

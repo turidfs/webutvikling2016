@@ -22,74 +22,180 @@
 
 		<main class="box">
 			<!-- Øvningsoppgavene -->
-			<div class="box normal">
+			<section class="box normal">
 
 				<h2>Øvings oppgaver</h2>
 
 				<!-- Oppgave 1 -->
-				<div class="box oppg" id="oppg1">
+				<article class="box oppg" id="oppg1">
 					<h3 class="solve">Oppgave 1</h3>
 						<h4>Oppgaven</h4>
 							<p>Gjør ferdig nettstedet dere begynte på i oblig 2. Nettstedet må ikke være veldig avansert men skal vise at dere behersker HTML og CSS godt, og at dere evner å gjøre et planlagt design til et ferdig nettsted.</p>
 						<h4>Løsningen</h4>
-							<p></p>
-				</div>
+							<p><a href="http://www.it-stud.hiof.no/~turidfs/zip/index.html">Nettsiden</a></p>
+                    <!-- <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p></p>
+                        <h6>Admin, negativt</h6>
+                        <p></p>
+                        <h6>Student, positivt</h6>
+                        <p></p>
+                        <h6>Student, negativt</h6>
+                        <p></p>
+                    </div> -->
+				</article>
 
 				<!-- Oppgave 2 -->
-				<div class="box oppg" id="oppg2">
+				<article class="box oppg" id="oppg2">
 					<h3 class="solve">Oppgave 2</h3>
 						<h4>Oppgaven</h4>
 							<p>Test og dokumenter at nettstedet validerer (både HTML og CSS) og at den vises som planlagt/korrekt på ulike enheter, i ulike oppløsninger og i ulike nettlesere. Det er viktig at nettstedet fungerer korrekt på mobile enheter, nettbrett, bærbare og stasjonære pcer.</p>
                             <p>Dokumenter ved hjelp av for eksempel skjermbilder at dere har testet i forskjellige oppløsninger og i forskjellige nettlesere.</p>
                             <p>Om dere får noen valideringsfeil som ikke kan fikses når dere tester skal dere beskrive disse og hva de betyr. Med valideringsfeil som ikke kan fikses menes browser hacks, CSS som ikke er ”ferdig” og HTML kode som ikke er ”ferdig”. Valideringsfeil som kan ordnes burde ordnes før innlevering.</p>
 						<h4>Løsningen</h4>
-							<p></p>
-				</div>
+							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip%2Findex.html" target="_blank">Validering av nettsiden</a> (åpner i ny fane)</p>
+				</article>
 
 				<!-- Oppgave 3 -->
-				<div class="box oppg" id="oppg3">
+				<article class="box oppg" id="oppg3">
 					<h3 class="solve">Oppgave 3</h3>
 						<h4>Oppgaven</h4>
 							<p>Lag en kort oppsummering av arbeidet og hvordan alle i gruppen har bidratt. Skriv også litt om hvordan dere har arbeidet i Git og hvordan dette har fungert for dere.</p>
 						<h4>Løsningen</h4>
-							<p></p>
-				</div>
+							<p>I oblig 2 satt vi i hovedsak sammen for å jobbe med oppgavene. Vi jobbet i MakerSpace og i Enigma sonen og fikk erfare at det er fort gjort å bli mer sosial enn arbeidssom.</p>
+							<p>I oblig 3 var vi litt mer obs på å passe på at alle hadde forstått GitHub og oppgavene sine, slik at det ble mulig for oss å jobbe alene til de tidene som passet oss best.</p>
+                    <!-- <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p></p>
+                        <h6>Admin, negativt</h6>
+                        <p></p>
+                        <h6>Student, positivt</h6>
+                        <p></p>
+                        <h6>Student, negativt</h6>
+                        <p></p>
+                    </div> -->
+				</article>
 
 				<!-- Oppgave 4 -->
-				<div class="box oppg" id="oppg4">
+				<article class="box oppg" id="oppg4">
 					<h3 class="solve">Oppgave 4</h3>
 						<h4>Oppgaven</h4>
 							<p>Lag en enkel nettside der du eksperimenterer med avanserte HTML og CSS funksjoner. Det som burde være med er video, CSS animasjoner, MathML, SVG og webfonter. Eksemplene skal lages selv men de trenger ikke å være veldig avanserte. Videofiler og fonter kan hentes fra nett.</p>
 						<h4>Løsningen</h4>
-							<p></p>
-				</div>
+							<p><a href="oppgaver/oblig3oppg4.php">Egen side</a></p>
+                    <!-- <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p></p>
+                        <h6>Admin, negativt</h6>
+                        <p></p>
+                        <h6>Student, positivt</h6>
+                        <p></p>
+                        <h6>Student, negativt</h6>
+                        <p></p>
+                    </div> -->
+				</article>
 
-			</div>
+			</section>
 
 			<!-- Eksamensoppgavene -->
-			<div class="box eksamen">
+			<section class="box eksamen">
 
 				<h2>Tidligere eksamensoppgaver</h2>
 
 				<!-- Oppgave 5 -->
-				<div class="box eksoppg" id="oppg5">
-					<h3 class="solve">Oppgave 5</h3>
+				<article class="box eksoppg" id="oppg5">
+					<h3 class="utdyp">Oppgave 5</h3>
 						<h4>Oppgaven</h4>
 							<p>Det dukker stadig opp "utvidelser" til HTML-språket, og MathML er en av disse vi har sett på i kurset. Hvilke fordeler og ulemper er det ved å bruke MathML fremfor å sette inn et bilde slik det ble gjort tidligere?</p>
 						<h4>Løsningen</h4>
-							<p></p>
-				</div>
+							<p>En av fordelene ved å bruke MathML fremfor å sette inn et bilde er at innholdet blir søkbart og maskinlesbart.</p>
+                            <blockquote cite="https://en.wikipedia.org/wiki/MathML">
+                                <h5>MathML tegn og syntaks</h5>
+                                <p>Informasjonen her er hentet fra <a href="https://en.wikipedia.org/wiki/MathML">Wikipedias side om MathML</a> 11.10.16 klokkka 15:36.</p>
+                                <dl>
+                                    <dt>Token elements</dt><dd>Token elements generally only contain characters (not other elements). They include:</dd>
+                                    <dt>&lt;mi>x&lt;/mi&gt;</dt><dd>identifiers</dd>
+                                    <dt>&lt;mo&gt;+&lt;/mo&gt;</dt><dd>operators</dd>
+                                    <dt>&lt;mn&gt;2&lt;/mn&gt;</dt><dd>numbers</dd>
+                                    <dt>&lt;mtext&gt;non zero&lt;/mtext&gt;</dt><dd>text</dd>
+                                    <dt>&lt;mtext&gt;&lt;b&gt;non&lt;/b&gt; zero&lt;/mtext&gt;</dt><dd>Note however that these token elements may be used as extension points, allowing markup in host languages. MathML in HTML5 allows most inline HTML markup in mtext, and is conforming, with the HTML markup being used within the MathML to mark up the embedded text (making the first word bold in this example).</dd>
+                                    <dt>Layout elements</dt><dd>These are combined using layout elements, that generally contain only elements.They include:</dd>
+                                    <dt>&lt;mrow&gt;</dt><dd>a horizontal row of items</dd>
+                                    <dt>&lt;msup&gt;, &lt;munderover&gt;</dt><dd>and others – superscripts, limits over and under operators like sums, etc.</dd>
+                                    <dt>&lt;mfrac&gt;</dt><dd>fractions</dd>
+                                    <dt>&lt;msqrt&gt; and &lt;mroot&gt;</dt><dd>roots</dd>
+                                    <dt>&lt;mfenced&gt;</dt><dd>surrounding content with fences, such as parentheses.</dd>
+                                    <dt></dt><dd></dd>
+                                    <dt></dt><dd></dd>
+                                    <dt></dt><dd></dd>
+                                    <dt></dt><dd></dd>
+                                </dl>
+                            </blockquote>
+                    <p></p>
+                    <!-- <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p></p>
+                        <h6>Admin, negativt</h6>
+                        <p></p>
+                        <h6>Student, positivt</h6>
+                        <p></p>
+                        <h6>Student, negativt</h6>
+                        <p></p>
+                    </div> -->
+				</article>
                 
                 <!-- Oppgave 6 -->
-				<div class="box eksoppg" id="oppg6">
-					<h3 class="solve">Oppgave 6</h3>
+				<article class="box eksoppg" id="oppg6">
+					<h3 class="utdyp">Oppgave 6</h3>
 						<h4>Oppgaven</h4>
 							<p>Hvilke fordeler/ulemper ville det hatt dersom en webside måtte være 100% korrekt/validert før den kunne vises av en nettleser? Tenk på standarder, teknologi, utviklere og brukere.</p>
 						<h4>Løsningen</h4>
-							<p></p>
-				</div>
+                        <h5>Generelt</h5>
+                            <p>Det ville mest sannsynlig ha vært mer profesjonelt innhold og mindre brukergenererte data.</p>
+                            <h6>Fordeler</h6>
+                                <p>Mer profesjonelt og mindre brukergenerert ville i stor grad ha betydd mindre tull som f.eks. svindel, upresise/ukorekte/feil data.</p>
+                            <h6>Ulemper</h6>
+                                <p>En veldig stor ulempe er at det er risiko for at mange nettsider får problemer hver gang det kommer en oppdatering i html, css og js. Det kan også bli vanskelig å teste ut nye ting som enda ikke er 100% støttet av nettlesere, som f.eks. Browser-hacks. Mer profesjonelt og mindre brukergenerert kan også bety at internett fort kunne ha blitt mer som et leksikon enn et interaktivt samarbeidsverktøy.</p>
+                        <h5>Standarder</h5>
+                            <h6>Fordeler</h6>
+                                <p>Det hadde vært enklere å få alle nettlesere til å følge samme standard.</p>
+                            <h6>Ulemper</h6>
+                                <p>Det kan fort bli mer motstand mot nye standarder, fordi folk vet at de må gjøre ekstra arbeid med en gang det kommer ut.</p>
+                        <h5>Teknologi</h5>
+                            <h6>Fordeler</h6>
+                                <p>Det kan bli enklere å utvikle teknologi når man vet at alt funker.</p>
+                            <h6>Ulemper</h6>
+                                <p></p>
+                            <p></p>
+                        <h5>Utviklere</h5>
+                            <h6>Fordeler</h6>
+                                <p></p>
+                            <h6>Ulemper</h6>
+                                <p>For utviklere vil det mest sannsynlig være flest ulemper. Det er litt dumt om koden man lager må være 100% ferdig før man kan teste den ut. Ofte oppdager man problemer underveis som det er mye enklere å fikse når siden er f.eks. 20% ferdig, dette kan fort bli veldig mye ekstra jobb om man har gjort den samme feilen opp til 100%.</p>
+                        <h5>Brukere</h5>
+                            <h6>Fordeler</h6>
+                                <p>Det ville mest sannsynlig blitt mer likt hva en handicappet bruker og en ikke handicappet bruker ville ha kunnet utforske, dermed ville det mest sannsynlig ha blitt mer press fra alle hold om å gi sidene god tilgjengelighet.</p>
+                            <h6>Ulemper</h6>
+                                <p></p>
+                            <p>For de fleste brukere kan det være veldig slitsomt å måtte gå igjennom side etter side uten å få tilbake noe innhold fordi siden ikke er perfekt. Det ville mest sannsynlig ha blitt vanskeligere for brukere å generere innhold selv (f.eks. en blogg).</p>
+                    <!-- <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p></p>
+                        <h6>Admin, negativt</h6>
+                        <p></p>
+                        <h6>Student, positivt</h6>
+                        <p></p>
+                        <h6>Student, negativt</h6>
+                        <p></p>
+                    </div> -->
+				</article>
 
-			</div>
+			</section>
 		</main>
 
 		<aside class="quick box">
