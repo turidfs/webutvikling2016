@@ -1,5 +1,4 @@
 <html>
-
 	<head>
 		<title>Oblig 3 - Turid Irene Folkestad Sønsteby</title>
 		<meta charset="UTF-8"/>
@@ -32,7 +31,7 @@
 						<h4>Oppgaven</h4>
 							<p>Gjør ferdig nettstedet dere begynte på i oblig 2. Nettstedet må ikke være veldig avansert men skal vise at dere behersker HTML og CSS godt, og at dere evner å gjøre et planlagt design til et ferdig nettsted.</p>
 						<h4>Løsningen</h4>
-							<p><a href="http://www.it-stud.hiof.no/~turidfs/zip/index.html">Nettsiden</a></p>
+							<p><a href="http://www.it-stud.hiof.no/~turidfs/zip/index.php">Nettsiden</a></p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -54,7 +53,7 @@
                             <p>Dokumenter ved hjelp av for eksempel skjermbilder at dere har testet i forskjellige oppløsninger og i forskjellige nettlesere.</p>
                             <p>Om dere får noen valideringsfeil som ikke kan fikses når dere tester skal dere beskrive disse og hva de betyr. Med valideringsfeil som ikke kan fikses menes browser hacks, CSS som ikke er ”ferdig” og HTML kode som ikke er ”ferdig”. Valideringsfeil som kan ordnes burde ordnes før innlevering.</p>
 						<h4>Løsningen</h4>
-							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip%2Findex.html" target="_blank">Validering av nettsiden</a> (åpner i ny fane)</p>
+							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip%2Findex.php" target="_blank">Validering av nettsiden</a> (åpner i ny fane)</p>
 				</article>
 
 				<!-- Oppgave 3 -->
