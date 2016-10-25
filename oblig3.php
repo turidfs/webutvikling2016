@@ -17,6 +17,7 @@
                 Leveransen i oppgaven er en individuell nettside med linker til de felles gruppeoppgavene og linker til de individuelle oppgavene som er gjort. Vis tydelig i din individuelle innlevering hvem du har samarbeidet med på gruppeprosjektet.</p>
                 <p>Aktivitetsloggen på GitHub er en del av det individuelle vurderingsgrunnlaget, dette betyr at GitHub repoet må være public og må vise at alle har bidratt og at dere har hatt gode arbeidsrutiner.</p>
             </div>
+            <?php include 'sammarbeidOblig2og3.php'; ?>
 		</header>
 
 		<main class="box">
@@ -27,11 +28,11 @@
 
 				<!-- Oppgave 1 -->
 				<article class="box oppg" id="oppg1">
-					<h3 class="solve">Oppgave 1</h3>
+					<h3 class="utdyp">Oppgave 1</h3>
 						<h4>Oppgaven</h4>
 							<p>Gjør ferdig nettstedet dere begynte på i oblig 2. Nettstedet må ikke være veldig avansert men skal vise at dere behersker HTML og CSS godt, og at dere evner å gjøre et planlagt design til et ferdig nettsted.</p>
 						<h4>Løsningen</h4>
-							<p><a href="http://www.it-stud.hiof.no/~turidfs/zip/index.php">Nettsiden</a></p>
+							<p><a href="http://www.it-stud.hiof.no/~turidfs/zip2/index.php">Nettsiden</a></p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -53,17 +54,32 @@
                             <p>Dokumenter ved hjelp av for eksempel skjermbilder at dere har testet i forskjellige oppløsninger og i forskjellige nettlesere.</p>
                             <p>Om dere får noen valideringsfeil som ikke kan fikses når dere tester skal dere beskrive disse og hva de betyr. Med valideringsfeil som ikke kan fikses menes browser hacks, CSS som ikke er ”ferdig” og HTML kode som ikke er ”ferdig”. Valideringsfeil som kan ordnes burde ordnes før innlevering.</p>
 						<h4>Løsningen</h4>
-							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip%2Findex.php" target="_blank">Validering av nettsiden</a> (åpner i ny fane)</p>
+							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php" target="_blank">Validering av nettsiden</a> (åpner i ny fane)</p>
+                            <p>Feil som ikke er fikset, og grunnen til det:</p>
+                            <dl>
+                                <dt></dt><dd></dd>
+                                <dt></dt><dd></dd>
+                                <dt></dt><dd></dd>
+                                <dt></dt><dd></dd>
+                                <dt></dt><dd></dd>
+                                <dt></dt><dd></dd>
+                                <dt></dt><dd></dd>
+                                <dt></dt><dd></dd>
+                            </dl>
 				</article>
 
 				<!-- Oppgave 3 -->
 				<article class="box oppg" id="oppg3">
-					<h3 class="solve">Oppgave 3</h3>
+					<h3 class="utdyp">Oppgave 3</h3>
 						<h4>Oppgaven</h4>
 							<p>Lag en kort oppsummering av arbeidet og hvordan alle i gruppen har bidratt. Skriv også litt om hvordan dere har arbeidet i Git og hvordan dette har fungert for dere.</p>
 						<h4>Løsningen</h4>
+                            <h5>Oblig 2</h5>
 							<p>I oblig 2 satt vi i hovedsak sammen for å jobbe med oppgavene. Vi jobbet i MakerSpace og i Enigma sonen og fikk erfare at det er fort gjort å bli mer sosial enn arbeidssom.</p>
+                            <h5>Oblig 3</h5>
 							<p>I oblig 3 var vi litt mer obs på å passe på at alle hadde forstått GitHub og oppgavene sine, slik at det ble mulig for oss å jobbe alene til de tidene som passet oss best.</p>
+                    <p>Vi hadde litt problemer internt i gruppa med en del sykdom.</p>
+                    <p>En i gruppa fikk ikke nyeste versjonen av filene vi andre lastet opp, og det tok oss ganske lang tid å finne ut av hva som var problemet.</p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
