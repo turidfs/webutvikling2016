@@ -4,6 +4,176 @@
 		<title>Oblig 3 - Turid Irene Folkestad Sønsteby</title>
 		<meta charset="UTF-8"/>
 		<link href="css/webcss_v2.css" type="text/css" rel="stylesheet" />
+        <style> /* Animasjoner */
+            /* The animation code */
+            @keyframes example {
+                from {background-color: red;}
+                to {background-color: yellow;}
+            }
+            /* The element to apply the animation to */
+            #div1 {
+                width: 100px;
+                height: 100px;
+                background-color: limegreen;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: 1;
+            }
+            
+            /* The animation code */
+            @keyframes example {
+                0%   {background-color: limegreen;}
+                25%  {background-color: orange;}
+                50%  {background-color: purple;}
+                100% {background-color: brown;}
+            }
+
+            /* The element to apply the animation to */
+            #div2 {
+                width: 100px;
+                height: 100px;
+                background-color: limegreen;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: 3;
+            }
+            
+            /* The animation code */
+            @keyframes example {
+                0%   {background-color: limegreen; left:0px; top:0px;}
+                25%  {background-color: yellow; left:200px; top:0px;}
+                50%  {background-color: coral; left:200px; top:200px;}
+                75%  {background-color: red; left:0px; top:200px;}
+                100% {background-color: rebeccapurple; left:0px; top:0px;}
+            }
+
+            /* The element to apply the animation to */
+            #div3 {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                background-color: limegreen;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-iteration-count: 5;
+            }
+            
+            #div4 {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                background-color: limegreen;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-delay: 2s;
+                animation-iteration-count: 7;
+            }
+            
+            #div5 {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                background-color: limegreen;
+                animation-name: example;
+                animation-duration: 4s;
+                /*animation-iteration-count: infinite;*/
+                animation-iteration-count: 11;
+            }
+            
+            #div6 {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                background-color: limegreen;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-direction: reverse;
+                animation-iteration-count: 13;
+            }
+            
+            #div7 {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                background-color: limegreen;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-direction: alternate;
+                animation-iteration-count: 17;
+            }
+            
+            #div1 {animation-timing-function: linear;}
+            #div2 {animation-timing-function: ease;}
+            #div3 {animation-timing-function: ease-in;}
+            #div4 {animation-timing-function: ease-out;}
+            #div5 {animation-timing-function: ease-in-out;}
+            
+            #div8 {
+                animation-name: example;
+                animation-duration: 5s;
+                animation-timing-function: linear;
+                animation-delay: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-iteration-count: 19;
+            }
+            
+            #div9 {
+                animation: example 5s linear 2s infinite alternate;
+            }
+        </style>
+        <style>
+            math {
+                border: 2px solid red;
+                margin: 10px;
+                padding: 5px;
+                width: 30%;
+            }
+        </style>
+        <style> /* Webfonter */
+            @font-face {
+               font-family: myFirstFont;
+               src: url(fonts/ProzaLibre-Regular.ttf);
+            }
+            @font-face {
+               font-family: mySecondFont;
+               src: url(fonts/Slabo27px-Regular.ttf);
+            }
+            @font-face {
+               font-family: myThirdFont;
+               src: url(fonts/Trirong-Regular.ttf);
+            }
+            @font-face {
+               font-family: myFourthFont;
+               src: url(fonts/OpenSans-CondLight.ttf);
+            }
+            @font-face {
+               font-family: myFifthFont;
+               src: url(fonts/Merriweather-Regular.ttf);
+            }
+            @font-face {
+               font-family: mySixthFont;
+               src: url(fonts/Ubuntu-Regular.ttf);
+            }
+            #webfonter h1, #webfonter h1+p {
+                font-family: myFirstFont;
+            }
+            #webfonter h2, #webfonter h2+p {
+                font-family: mySecondFont;
+            }
+            #webfonter h3, #webfonter h3+p {
+                font-family: myThirdFont;
+            }
+            #webfonter h4, #webfonter h4+p {
+                font-family: myFourthFont;
+            }
+            #webfonter h5, #webfonter h6+p {
+                font-family: myFifthFont;
+            }
+            #webfonter h6, #webfonter h6+p {
+                font-family: mySixthFont;
+            }
+        </style>
 	</head>
 	<body>
 		<header class="box">
@@ -20,26 +190,108 @@
 
 				<!-- Oppgave 4 -->
                 <div class="box oppg" id="video">
-					<h3 class="solve">Video</h3>
-                    <video width="500" height="300" controls>
-                        <source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
+					<h3 class="done">Video</h3>
+                    <video width="500" height="300" autoplay controls>
+                        <source src="video/Ballad-Of-The-Goddess-as-sung-by-Zelda-Extended.mp4" type="video/mp4">
+                        <source src="video/Ballad-Of-The-Goddess-as-sung-by-Zelda-Extended.ogg" type="video/ogg">
                         Your browser does not support the video tag.
                     </video>
                     <br />
-                    <video width="500" height="300" autoplay>
-                        <source src="movie.mp4" type="video/mp4">
-                        <source src="movie.ogg" type="video/ogg">
+                    <video width="500" height="300" controls>
+                        <source src="video/Ballad-Of-The-Goddess-as-sung-by-Zelda-Extended.mp4" type="video/mp4">
+                        <source src="video/Ballad-Of-The-Goddess-as-sung-by-Zelda-Extended.ogg" type="video/ogg">
                         Your browser does not support the video tag.
                     </video>
 				</div>
                 
 				<div class="box oppg" id="animasjon">
-					<h3 class="solve">CSS animasjoner</h3>
+					<h3 class="done">CSS animasjoner</h3>
+                    <div id="div1"></div>
+                    <div id="div2"></div>
+                    <div id="div3"></div>
+                    <div id="div4"></div>
+                    <div id="div5"></div>
+                    <div id="div6"></div>
+                    <div id="div7"></div>
+                    <div id="div8"></div>
+                    <div id="div9"></div>
 				</div>
                 
                 <div class="box oppg" id="mathML">
-					<h3 class="solve">MathML</h3>
+					<h3 class="done">MathML</h3>
+                    <p>Funker som det skal i min versjon av Mozilla Firefox. I chrome viser den tegnene uten at de er opphevet, senket, kvadratrot eller lignende.</p>
+                    <math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+                        <mn>3</mn>
+                        <mi>x</mi>
+                        <mo>-</mo>
+                        <mn>2</mn>
+                        <mi>y</mi>
+                    </math>
+                    
+                    <math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+                        <msup>
+                            <mi>e</mi>
+                            <mrow>
+                                <mn>2</mn>
+                            <mi>x</mi>
+                                <mo>+</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msup>
+                    </math>
+                    
+                    <math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+                        <msup>
+                            <mi>a</mi>
+                                <mn>2</mn>
+                        </msup>
+                        <mo>+</mo>
+                        <msup>
+                            <mi>b</mi>
+                                <mn>2</mn>
+                        </msup>
+                        <mo>=</mo>
+                        <msup>
+                            <mi>c</mi>
+                                <mn>2</mn>
+                        </msup>
+                    </math>
+                    
+                    <math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+                        <msup>
+                            <mrow>
+                                <mo>(</mo>
+                                <mrow>
+                                    <mrow><mn>3</mn><mi>x</mi></mrow>
+                                    <mo>-</mo>
+                                    <mrow><mn>2</mn><mi>y</mi></mrow>
+                                </mrow>
+                                <mo>)</mo>
+                            </mrow>
+                            <mn>2</mn>
+                        </msup>
+                    </math>
+                    
+                    <math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+                        <msqrt>
+                            <mn>4</mn>
+                        </msqrt>
+                        <mo>&times;</mo>
+                        <mroot>
+                            <mn>8</mn>
+                            <mn>3</mn>
+                        </mroot>
+                        <mo>=</mo>
+                        <mn>4</mn>
+                    </math>
+                    
+                    <math xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mi>x</mi>
+                        </mfrac>
+                    </math>
+                    
 				</div>
                 
                 <div class="box oppg" id="svg">
@@ -112,7 +364,7 @@
 				</div>
                 
                 <div class="box oppg" id="webfonter">
-					<h3 class="solve">Webfonter</h3>
+					<h3 class="done">Webfonter</h3>
                     <h1>Nivå 1</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu efficitur erat. Curabitur et ullamcorper purus. Aenean pretium hendrerit nulla, vel elementum ipsum venenatis mollis. Fusce eu tempus nulla. Integer ornare egestas est, id tincidunt diam aliquet eu. Nulla pulvinar, lacus id condimentum laoreet, lorem neque dictum quam, eleifend facilisis ante nunc facilisis diam. Aenean sed malesuada arcu. Vestibulum malesuada metus metus, ac commodo elit convallis eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vestibulum accumsan mattis.</p>
                     <h2>Nivå 2</h2>

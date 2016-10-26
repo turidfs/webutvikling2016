@@ -48,7 +48,7 @@
 
 				<!-- Oppgave 2 -->
 				<article class="box oppg" id="oppg2">
-					<h3 class="solve">Oppgave 2</h3>
+					<h3 class="done">Oppgave 2</h3>
 						<h4>Oppgaven</h4>
 							<p>Test og dokumenter at nettstedet validerer (både HTML og CSS) og at den vises som planlagt/korrekt på ulike enheter, i ulike oppløsninger og i ulike nettlesere. Det er viktig at nettstedet fungerer korrekt på mobile enheter, nettbrett, bærbare og stasjonære pcer.</p>
                             <p>Dokumenter ved hjelp av for eksempel skjermbilder at dere har testet i forskjellige oppløsninger og i forskjellige nettlesere.</p>
@@ -56,31 +56,21 @@
 						<h4>Løsningen</h4>
 							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php" target="_blank">Validering av nettsidens HTML</a> (åpner i ny fane)</p>
 							<p><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php%3F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Validering av nettsidens CSS</a> (åpner i ny fane)</p>
-                            <p>Feil som ikke er fikset, og grunnen til det:</p>
-                            <dl>
-                                <dt></dt><dd></dd>
-                                <dt></dt><dd></dd>
-                                <dt></dt><dd></dd>
-                                <dt></dt><dd></dd>
-                                <dt></dt><dd></dd>
-                                <dt></dt><dd></dd>
-                                <dt></dt><dd></dd>
-                                <dt></dt><dd></dd>
-                            </dl>
+                            <p>De fleste feilene er html5 og css3 valideringsfeil, elementer som ikke er helt ferdige i standarden.</p>
 				</article>
 
 				<!-- Oppgave 3 -->
 				<article class="box oppg" id="oppg3">
-					<h3 class="utdyp">Oppgave 3</h3>
+					<h3 class="done">Oppgave 3</h3>
 						<h4>Oppgaven</h4>
 							<p>Lag en kort oppsummering av arbeidet og hvordan alle i gruppen har bidratt. Skriv også litt om hvordan dere har arbeidet i Git og hvordan dette har fungert for dere.</p>
 						<h4>Løsningen</h4>
                             <h5>Oblig 2</h5>
-							<p>I oblig 2 satt vi i hovedsak sammen for å jobbe med oppgavene. Vi jobbet i MakerSpace og i Enigma sonen og fikk erfare at det er fort gjort å bli mer sosial enn arbeidssom.</p>
+							<p>Vi satt i hovedsak sammen for å jobbe med oppgavene. Vi jobbet i MakerSpace og i Enigma sonen og fikk erfare at det er fort gjort å bli mer sosial enn arbeidssom.</p>
                             <h5>Oblig 3</h5>
-							<p>I oblig 3 var vi litt mer obs på å passe på at alle hadde forstått GitHub og oppgavene sine, slik at det ble mulig for oss å jobbe alene til de tidene som passet oss best.</p>
-                    <p>Vi hadde litt problemer internt i gruppa med en del sykdom.</p>
-                    <p>En i gruppa fikk ikke nyeste versjonen av filene vi andre lastet opp, og det tok oss ganske lang tid å finne ut av hva som var problemet.</p>
+                    <p>Vi hadde litt problemer internt i gruppa med en del sykdom. Vi var heller ikke flinke nok til å sørge for å fordele arbeidsoppgaver eller sørge for at alle hadde forstått oppgavene sine.</p>
+                    <p>En i gruppa fikk ikke nyeste versjonen av filene vi andre lastet opp, og det tok oss ganske lang tid å finne ut av hva som var problemet. Det viste seg å at prosjektet hadde blitt forket istedenfor å redigere samme repo.</p>
+                    <p>Vi har to github repo fordi jeg ikke helt fikk til å lage en branch slik jeg hadde tenkt til for å teste ut noe design og var usikker på om jeg kom til å få det til som jeg ville eller ikke. Gruppa ble deretter enig i at designet funket.</p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -96,7 +86,7 @@
 
 				<!-- Oppgave 4 -->
 				<article class="box oppg" id="oppg4">
-					<h3 class="solve">Oppgave 4</h3>
+					<h3 class="done">Oppgave 4</h3>
 						<h4>Oppgaven</h4>
 							<p>Lag en enkel nettside der du eksperimenterer med avanserte HTML og CSS funksjoner. Det som burde være med er video, CSS animasjoner, MathML, SVG og webfonter. Eksemplene skal lages selv men de trenger ikke å være veldig avanserte. Videofiler og fonter kan hentes fra nett.</p>
 						<h4>Løsningen</h4>
@@ -123,11 +113,12 @@
 
 				<!-- Oppgave 5 -->
 				<article class="box eksoppg" id="oppg5">
-					<h3 class="utdyp">Oppgave 5</h3>
+					<h3 class="done">Oppgave 5</h3>
 						<h4>Oppgaven</h4>
 							<p>Det dukker stadig opp "utvidelser" til HTML-språket, og MathML er en av disse vi har sett på i kurset. Hvilke fordeler og ulemper er det ved å bruke MathML fremfor å sette inn et bilde slik det ble gjort tidligere?</p>
 						<h4>Løsningen</h4>
-							<p>En av fordelene ved å bruke MathML fremfor å sette inn et bilde er at innholdet blir søkbart og maskinlesbart.</p>
+							<p>En av fordelene ved å bruke MathML fremfor å sette inn et bilde er at innholdet blir søkbart og maskinlesbart (universell utforming).</p>
+                            <p>En av de største ulempene er at det er veldig lite støtte fra de forskjellige nettleserne. I hovedsak er det bare Mozilla Firefox og Safari som støtter det.</p>
                             <blockquote cite="https://en.wikipedia.org/wiki/MathML">
                                 <h5>MathML tegn og syntaks</h5>
                                 <p>Informasjonen her er hentet fra <a href="https://en.wikipedia.org/wiki/MathML">Wikipedias side om MathML</a> 11.10.16 klokkka 15:36.</p>
@@ -166,7 +157,7 @@
                 
                 <!-- Oppgave 6 -->
 				<article class="box eksoppg" id="oppg6">
-					<h3 class="utdyp">Oppgave 6</h3>
+					<h3 class="done">Oppgave 6</h3>
 						<h4>Oppgaven</h4>
 							<p>Hvilke fordeler/ulemper ville det hatt dersom en webside måtte være 100% korrekt/validert før den kunne vises av en nettleser? Tenk på standarder, teknologi, utviklere og brukere.</p>
 						<h4>Løsningen</h4>
@@ -184,12 +175,12 @@
                         <h5>Teknologi</h5>
                             <h6>Fordeler</h6>
                                 <p>Det kan bli enklere å utvikle teknologi når man vet at alt funker.</p>
-                            <h6>Ulemper</h6>
-                                <p></p>
+                            <!--<h6>Ulemper</h6>
+                                <p></p>-->
                             <p></p>
                         <h5>Utviklere</h5>
-                            <h6>Fordeler</h6>
-                                <p></p>
+                            <!--<h6>Fordeler</h6>
+                                <p></p>-->
                             <h6>Ulemper</h6>
                                 <p>For utviklere vil det mest sannsynlig være flest ulemper. Det er litt dumt om koden man lager må være 100% ferdig før man kan teste den ut. Ofte oppdager man problemer underveis som det er mye enklere å fikse når siden er f.eks. 20% ferdig, dette kan fort bli veldig mye ekstra jobb om man har gjort den samme feilen opp til 100%.</p>
                         <h5>Brukere</h5>
