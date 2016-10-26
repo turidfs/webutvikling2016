@@ -28,7 +28,7 @@
 
 				<!-- Oppgave 1 -->
 				<article class="box oppg" id="oppg1">
-					<h3 class="utdyp">Oppgave 1</h3>
+					<h3 class="done">Oppgave 1</h3>
 						<h4>Oppgaven</h4>
 							<p>Gjør ferdig nettstedet dere begynte på i oblig 2. Nettstedet må ikke være veldig avansert men skal vise at dere behersker HTML og CSS godt, og at dere evner å gjøre et planlagt design til et ferdig nettsted.</p>
 						<h4>Løsningen</h4>
