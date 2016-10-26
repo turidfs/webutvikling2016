@@ -54,7 +54,8 @@
                             <p>Dokumenter ved hjelp av for eksempel skjermbilder at dere har testet i forskjellige oppløsninger og i forskjellige nettlesere.</p>
                             <p>Om dere får noen valideringsfeil som ikke kan fikses når dere tester skal dere beskrive disse og hva de betyr. Med valideringsfeil som ikke kan fikses menes browser hacks, CSS som ikke er ”ferdig” og HTML kode som ikke er ”ferdig”. Valideringsfeil som kan ordnes burde ordnes før innlevering.</p>
 						<h4>Løsningen</h4>
-							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php" target="_blank">Validering av nettsiden</a> (åpner i ny fane)</p>
+							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php" target="_blank">Validering av nettsidens HTML</a> (åpner i ny fane)</p>
+							<p><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php%3F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Validering av nettsidens CSS</a> (åpner i ny fane)</p>
                             <p>Feil som ikke er fikset, og grunnen til det:</p>
                             <dl>
                                 <dt></dt><dd></dd>
