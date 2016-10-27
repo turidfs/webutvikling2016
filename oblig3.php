@@ -39,10 +39,6 @@
                         <p></p>
                         <h6>Admin, negativt</h6>
                         <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
-                        <p></p>
                     </div> -->
 				</article>
 
@@ -57,6 +53,13 @@
 							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php" target="_blank">Validering av nettsidens HTML</a> (åpner i ny fane)</p>
 							<p><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php%3F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Validering av nettsidens CSS</a> (åpner i ny fane)</p>
                             <p>De fleste feilene er html5 og css3 valideringsfeil, elementer som ikke er helt ferdige i standarden.</p>
+                    <!-- <div class="comment">
+                        <h5>Feedback</h5>
+                        <h6>Admin, positivt</h6>
+                        <p></p>
+                        <h6>Admin, negativt</h6>
+                        <p></p>
+                    </div> -->
 				</article>
 
 				<!-- Oppgave 3 -->
@@ -77,10 +80,6 @@
                         <p></p>
                         <h6>Admin, negativt</h6>
                         <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
-                        <p></p>
                     </div> -->
 				</article>
 
@@ -96,10 +95,6 @@
                         <h6>Admin, positivt</h6>
                         <p></p>
                         <h6>Admin, negativt</h6>
-                        <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
                         <p></p>
                     </div> -->
 				</article>
@@ -148,10 +143,6 @@
                         <p></p>
                         <h6>Admin, negativt</h6>
                         <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
-                        <p></p>
                     </div> -->
 				</article>
                 
@@ -194,10 +185,6 @@
                         <h6>Admin, positivt</h6>
                         <p></p>
                         <h6>Admin, negativt</h6>
-                        <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
                         <p></p>
                     </div> -->
 				</article>
