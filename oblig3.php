@@ -33,13 +33,13 @@
 							<p>Gjør ferdig nettstedet dere begynte på i oblig 2. Nettstedet må ikke være veldig avansert men skal vise at dere behersker HTML og CSS godt, og at dere evner å gjøre et planlagt design til et ferdig nettsted.</p>
 						<h4>Løsningen</h4>
 							<p><a href="http://www.it-stud.hiof.no/~turidfs/zip2/index.php">Nettsiden</a></p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
+                        <p>Er jobbet mye i github, bra. Ser at du har bidratt mye i "contributers". nettside: viser god forståelse av både html og css. Responsivt websesign er på plass, rss, semantiske tagger og god struktur.</p>
                         <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>i oblig 2 skulle der utvikle innhold til nettsiden. det stod spesifikt at lorum ipsum ikke var nok for å få godkjent. dere har jobbet med innhold i form av struktur, men ikke innhold i form av informasjon til brukeren.</p>
+                    </div>
 				</article>
 
 				<!-- Oppgave 2 -->
@@ -53,13 +53,13 @@
 							<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php" target="_blank">Validering av nettsidens HTML</a> (åpner i ny fane)</p>
 							<p><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.it-stud.hiof.no%2F~turidfs%2Fzip2%2Findex.php%3F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">Validering av nettsidens CSS</a> (åpner i ny fane)</p>
                             <p>De fleste feilene er html5 og css3 valideringsfeil, elementer som ikke er helt ferdige i standarden.</p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
+                        <p>Ok, kunne ha utdypt.</p>
                         <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>har ikke dokumentert hjemmesiden på forskjellige enheter og nettlesere.</p>
+                    </div>
 				</article>
 
 				<!-- Oppgave 3 -->
@@ -74,13 +74,11 @@
                     <p>Vi hadde litt problemer internt i gruppa med en del sykdom. Vi var heller ikke flinke nok til å sørge for å fordele arbeidsoppgaver eller sørge for at alle hadde forstått oppgavene sine.</p>
                     <p>En i gruppa fikk ikke nyeste versjonen av filene vi andre lastet opp, og det tok oss ganske lang tid å finne ut av hva som var problemet. Det viste seg å at prosjektet hadde blitt forket istedenfor å redigere samme repo.</p>
                     <p>Vi har to github repo fordi jeg ikke helt fikk til å lage en branch slik jeg hadde tenkt til for å teste ut noe design og var usikker på om jeg kom til å få det til som jeg ville eller ikke. Gruppa ble deretter enig i at designet funket.</p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
-                        <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>ok. Sykdom kan man ikke noe for, men å fordele arbeidsoppgaver, kommunikasjon og samarbeid er gull når en gjennomføre slike prosjekter. er særlig viktig når en har korte tidsfrister. For å kommentere problemene som oppstod: dette er en læringsprosess, og at det oppstår uventede problemer er bare bra (hvis man klarer å løse det ofc).</p>
+                    </div>
 				</article>
 
 				<!-- Oppgave 4 -->
@@ -90,13 +88,11 @@
 							<p>Lag en enkel nettside der du eksperimenterer med avanserte HTML og CSS funksjoner. Det som burde være med er video, CSS animasjoner, MathML, SVG og webfonter. Eksemplene skal lages selv men de trenger ikke å være veldig avanserte. Videofiler og fonter kan hentes fra nett.</p>
 						<h4>Løsningen</h4>
 							<p><a href="oppgaver/oblig3oppg4.php">Egen side</a></p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
-                        <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>bra! eksperimenterer masse med hver teknikk.</p>
+                    </div>
 				</article>
 
 			</section>
@@ -130,20 +126,14 @@
                                     <dt>&lt;mfrac&gt;</dt><dd>fractions</dd>
                                     <dt>&lt;msqrt&gt; and &lt;mroot&gt;</dt><dd>roots</dd>
                                     <dt>&lt;mfenced&gt;</dt><dd>surrounding content with fences, such as parentheses.</dd>
-                                    <dt></dt><dd></dd>
-                                    <dt></dt><dd></dd>
-                                    <dt></dt><dd></dd>
-                                    <dt></dt><dd></dd>
                                 </dl>
                             </blockquote>
                     <p></p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
-                        <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>grei forklaring. kunne ha utdypt. </p>
+                    </div>
 				</article>
                 
                 <!-- Oppgave 6 -->
@@ -180,13 +170,11 @@
                             <h6>Ulemper</h6>
                                 <p></p>
                             <p>For de fleste brukere kan det være veldig slitsomt å måtte gå igjennom side etter side uten å få tilbake noe innhold fordi siden ikke er perfekt. Det ville mest sannsynlig ha blitt vanskeligere for brukere å generere innhold selv (f.eks. en blogg).</p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
-                        <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>gode forklaringer. viser forståelse.</p>
+                    </div>
 				</article>
 
 			</section>
