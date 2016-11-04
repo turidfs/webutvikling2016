@@ -25,7 +25,7 @@
 				
 				<!-- Oppgave 1 -->
 				<article class="box oppg" id="oppg1">
-					<h3 class="solve">Oppgave 1</h3>
+					<h3 class="utdyp">Oppgave 1</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Ta for deg nettsiden du var med på å lage i oblig 2/3 og gå igjennom SEO. Du skal gjennomføre en enkel SEO prosess, fra analyse til veldig enkel implementering.</p>
                     <p>Beskriv hva du ville gjort for å forbedre SEO på siden. Ting som må være med i beskrivelsen din er minst følgende:</p>
@@ -58,20 +58,24 @@
                     <h5>Analyse av bedriften</h5>
                     <p></p>
                     <dl>
-                        <dt>Målsetting</dt><dd></dd>
-                        <dt>Kundegruppen</dt><dd></dd>
-                        <dt>Produkter</dt><dd></dd>
-                        <dt>Konkurrenter</dt><dd></dd>
+                        <dt>Målsetting</dt><dd>Dette er et band som ønsker å bli verdenskjent.</dd>
+                        <dt>Kundegruppen</dt><dd>Er først og fremst tenåringsjenter.</dd>
+                        <dt>Produkter</dt><dd>Fokuserer på musikk, musikkvideoer og merchandise.</dd>
+                        <dt>Konkurrenter</dt><dd>De største konkurrente er artister/grupper som Taylor Swift, Justin Bieber, One Direction osv.</dd>
                     </dl>
                     <h5>Analyse av SEO på eksisterende nettsted (den teknisk implementasjonen)</h5>
                     <p></p>
                     <dl>
-                        <dt>Title tags</dt><dd></dd>
-                        <dt>nterne linker</dt><dd></dd>
+                        <dt>Title tags</dt><dd>Title tags er "ZiP - *sidenavn*" for alle sidene.</dd>
+                        <dt>Interne linker</dt><dd>Menyen med interne linker følger med til alle undersidene og er lik overalt.</dd>
                         <dt>Innhold (der det faktisk er noe ordentlig innhold)</dt><dd></dd>
                     </dl>
                     <h5>SEO informasjon (hva skal gjøres og hvorfor)</h5>
-                    <p></p>
+                    <ul>
+                        <li>Jeg ville begynt med å gjøre headeren enklere å lese for maskiner.</li>
+                        <li>Innholdet på de forskjellige sidene (i main) er ikke helt unikt, fordi det er brukt samme innhold på flere sider. Jeg ville ha hentet inn bare noen få artikler til home og sjekket at innholdet ellers bare er i main på en side.
+                        </li>
+                    </ul>
                     <h5>Teknisk implementasjon</h5>
                     <p></p>
                     <!-- <div class="comment">
@@ -79,10 +83,6 @@
                         <h6>Admin, positivt</h6>
                         <p></p>
                         <h6>Admin, negativt</h6>
-                        <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
                         <p></p>
                     </div> -->
 				</article>
@@ -101,10 +101,6 @@
                         <p></p>
                         <h6>Admin, negativt</h6>
                         <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
-                        <p></p>
                     </div> -->
 				</article>
 				
@@ -117,7 +113,7 @@
 				
 				<!-- Oppgave 3 -->
 				<article class="box eksoppg" id="oppg3">
-					<h3 class="solve">Oppgave 3</h3>
+					<h3 class="utdyp">Oppgave 3</h3>
 						<h4>Oppgaven</h4>
 							<p>Hva er Site Authority i forbindelse med SEO, og hvordan oppnår man dette?</p>
 						<h4>Løsningen</h4>
@@ -132,10 +128,6 @@ for forskjellige temaer
                         <h6>Admin, positivt</h6>
                         <p></p>
                         <h6>Admin, negativt</h6>
-                        <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
                         <p></p>
                     </div> -->
 				</article>
@@ -176,10 +168,6 @@ for forskjellige temaer
                         <p></p>
                         <h6>Admin, negativt</h6>
                         <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
-                        <p></p>
                     </div> -->
 				</article>
                 
@@ -189,16 +177,12 @@ for forskjellige temaer
 						<h4>Oppgaven</h4>
 							<p>Hvorfor kan vi (som oftest) ikke se resultater av SEO (Search engine optimization) umiddelbart?</p>
 						<h4>Løsningen</h4>
-							<p>Google må indeksere siden på nytt.</p>
+							<p>Google må indeksere siden på nytt. Vi kan heller ikke være helt sikre på at de resultatene vi får når vi først får resultater er på grunn av noe vi har gjort, det kan være en av våre konkurrenter har gjort noe sikkelig dumt, og heller ikke hva vi eventuelt har gjort riktig (eller kanskje til og med noe feil/dumt).</p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
                         <p></p>
                         <h6>Admin, negativt</h6>
-                        <p></p>
-                        <h6>Student, positivt</h6>
-                        <p></p>
-                        <h6>Student, negativt</h6>
                         <p></p>
                     </div> -->
 				</article>
