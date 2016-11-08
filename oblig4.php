@@ -134,7 +134,7 @@ for forskjellige temaer
                 
                 <!-- Oppgave 4 -->
 				<article class="box eksoppg" id="oppg4">
-					<h3 class="utdyp">Oppgave 4</h3>
+					<h3 class="done">Oppgave 4</h3>
 						<h4>Oppgaven</h4>
 							<p>Hvilke faktorer(/elementer/parametre/informasjon) for en webside bruker en søkemotor i rangeringen? (Dette blir selvsagt ikke noen absolutt og endelig liste, men få med de viktigste)</p>
                     <p style="text-decoration: underline;"><strong>Svar som en punktliste i kortfattet form. Om det er ting du anser som spesielt viktig kan du gjerne utdype noe.</strong></p>
