@@ -180,7 +180,7 @@ for forskjellige temaer
                 
                 <!-- Oppgave 5 -->
 				<article class="box eksoppg" id="oppg5">
-					<h3 class="utdyp">Oppgave 5</h3>
+					<h3 class="done">Oppgave 5</h3>
 						<h4>Oppgaven</h4>
 							<p>Hvorfor kan vi (som oftest) ikke se resultater av SEO (Search engine optimization) umiddelbart?</p>
 						<h4>Løsningen</h4>
