@@ -94,7 +94,14 @@
 							<p>Hva er mikrodata? Beskriv hva det er, hvordan det brukes og hvorfor det er nyttig. Beskriv også noen bruksområder som er spesielt egent for mikrodata.</p>
                     <p>Beskrivelsen skal være utfyllende og dekke alle viktige aspekter av Mikrodata. Om ønskelig kan du gjerne lage opp noen kode eksempler for å gjøre det enklere å beskrive vanskelig konsepter.</p>
 						<h4>Løsningen</h4>
-							<p>Oppskrifter, google søk. Merke informasjon. Mennesker, artikkler, oppskrifter, hendelser, breadcrumbs, meny, musikk.</p>
+                    <h5>Hva er det?</h5>
+                    <p></p>
+                    <h5>Hvordan brukes det?</h5>
+                    <p></p>
+                    <h5>Hvorfor er det viktig?</h5>
+                    <p></p>
+                    <h5>Bruksområder</h5>
+                    <p>Oppskrifter, google søk. Merke informasjon. Mennesker, artikkler, oppskrifter, hendelser, breadcrumbs, meny, musikk.</p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
