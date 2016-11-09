@@ -90,7 +90,7 @@
                 
                 <!-- Oppgave 2 -->
 				<article class="box oppg" id="opp2">
-					<h3 class="utdyp">Oppgave 2</h3>
+					<h3 class="done">Oppgave 2</h3>
 						<h4>Oppgaven</h4>
 							<p>Hva er mikrodata? Beskriv hva det er, hvordan det brukes og hvorfor det er nyttig. Beskriv også noen bruksområder som er spesielt egent for mikrodata.</p>
                     <p>Beskrivelsen skal være utfyllende og dekke alle viktige aspekter av Mikrodata. Om ønskelig kan du gjerne lage opp noen kode eksempler for å gjøre det enklere å beskrive vanskelig konsepter.</p>
