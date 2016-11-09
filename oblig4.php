@@ -25,7 +25,7 @@
 				
 				<!-- Oppgave 1 -->
 				<article class="box oppg" id="oppg1">
-					<h3 class="utdyp">Oppgave 1</h3>
+					<h3 class="done">Oppgave 1</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Ta for deg nettsiden du var med på å lage i oblig 2/3 og gå igjennom SEO. Du skal gjennomføre en enkel SEO prosess, fra analyse til veldig enkel implementering.</p>
                     <p>Beskriv hva du ville gjort for å forbedre SEO på siden. Ting som må være med i beskrivelsen din er minst følgende:</p>
@@ -55,6 +55,7 @@
                         </li>
                     </ol>
 				    <h4>Løsningen</h4>
+                    <p><a href="http://www.it-stud.hiof.no/~turidfs/zip2/index.php">Nettsiden</a></p>
                     <h5>Analyse av bedriften</h5>
                     <p></p>
                     <dl>
@@ -68,16 +69,15 @@
                     <dl>
                         <dt>Title tags</dt><dd>Title tags er "ZiP - *sidenavn*" for alle sidene.</dd>
                         <dt>Interne linker</dt><dd>Menyen med interne linker følger med til alle undersidene og er lik overalt.</dd>
-                        <dt>Innhold (der det faktisk er noe ordentlig innhold)</dt><dd></dd>
+                        <dt>Innhold (der det faktisk er noe ordentlig innhold)</dt><dd>Innholdet på de forskjellige sidene (i main) er ikke helt unikt, fordi det er brukt samme innhold på flere sider.</dd>
                     </dl>
-                    <h5>SEO informasjon (hva skal gjøres og hvorfor)</h5>
+                    <h5>SEO informasjon (hva skal gjøres og hvorfor) og Teknisk implementasjon</h5>
                     <ul>
                         <li>Jeg ville begynt med å gjøre headeren enklere å lese for maskiner.</li>
-                        <li>Innholdet på de forskjellige sidene (i main) er ikke helt unikt, fordi det er brukt samme innhold på flere sider. Jeg ville ha hentet inn bare noen få artikler til home og sjekket at innholdet ellers bare er i main på en side.
-                        </li>
+                        <li>Jeg ville ha hentet inn bare noen få artikler til home og sjekket at innholdet ellers bare er i main på en side, slik at innholdet blir unikt i main for alle sidene.</li>
+                        <li>Gjøre en analyse av nøkkelord og sørge for at de viktigste nøkkelordene er nevnt på sidene.</li>
+                        <li>Legge inn mer informasjon i meta taggen slik at det er mer informasjon enkelt tilgjengelig. Keywords, description, author osv. (Selv om ikke alt blir brukt direkte til SEO.)</li>
                     </ul>
-                    <h5>Teknisk implementasjon</h5>
-                    <p></p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -95,13 +95,54 @@
                     <p>Beskrivelsen skal være utfyllende og dekke alle viktige aspekter av Mikrodata. Om ønskelig kan du gjerne lage opp noen kode eksempler for å gjøre det enklere å beskrive vanskelig konsepter.</p>
 						<h4>Løsningen</h4>
                     <h5>Hva er det?</h5>
-                    <p></p>
+                    <p>Merke informasjon. SEO. Universell utforming. Hva innholdet er og hvorfor det er der.</p>
                     <h5>Hvordan brukes det?</h5>
-                    <p></p>
+                    <p>Merke data, fortelle hva det er. Attributter på html elementene. Itemscope, itemtype, itemid, itemprop, itemref. <a href="http://ask.hiof.no/~michaeal/files/web/lectures/forelesningMicrodata.pdf">Microdata eksempelet er hentet fra forelesningsnotat om Microdata side 6.</a></p>
+                    <blockquote cite="http://ask.hiof.no/~michaeal/files/web/lectures/forelesningMicrodata.pdf">
+<pre>
+&lt;section itemscope itemtype="http://schema.org/Person"&gt;
+    Hello, my name is
+    &lt;span itemprop="name">John Doe&lt;/span&gt;,
+    I am a
+    &lt;span itemprop="jobTitle">Graduate research assistant&lt;/span&gt;
+    at the
+    &lt;span itemprop="affiliation">University of Dreams&lt;/span&gt;
+    My friends call me
+    &lt;span itemprop="additionalName">Johnny&lt;/span&gt;
+    You can visit my homepage at
+    &lt;a href="http://www.example.com.com" itemprop="url"&gt;www.example.com&lt;/a&gt;
+    &lt;section itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+        I live at
+        &lt;span itemprop="streetAddress">1234 Peach Drive&lt;/span&gt;
+        &lt;span itemprop="addressLocality">Warner Robins&lt;/span&gt;
+        &lt;span itemprop="addressRegion">Georgia&lt;/span&gt;.
+    &lt;/section&gt;
+&lt;/section&gt;
+</pre>
+                        <p>Denne koden gir:</p>
+                        <section itemscope itemtype="http://schema.org/Person">
+                            Hello, my name is
+                            <span itemprop="name">John Doe</span>,
+                            I am a
+                            <span itemprop="jobTitle">Graduate research assistant</span>
+                            at the
+                            <span itemprop="affiliation">University of Dreams</span>
+                            My friends call me
+                            <span itemprop="additionalName">Johnny</span>
+                            You can visit my homepage at
+                            <a href="http://www.example.com.com" itemprop="url">www.example.com</a>
+                            <section itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                I live at
+                                <span itemprop="streetAddress">1234 Peach Drive</span>
+                                <span itemprop="addressLocality">Warner Robins</span>
+                                <span itemprop="addressRegion">Georgia</span>.
+                            </section>
+                        </section>
+                    </blockquote>
                     <h5>Hvorfor er det viktig?</h5>
-                    <p></p>
+                    <p>Google søk. Maskiner. SEO. Universell utforming. Maskinlesbarhet.</p>
                     <h5>Bruksområder</h5>
-                    <p>Oppskrifter, google søk. Merke informasjon. Mennesker, artikkler, oppskrifter, hendelser, breadcrumbs, meny, musikk.</p>
+                    <p>Mennesker, artikkler, oppskrifter, hendelser, breadcrumbs, meny, musikk.</p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -120,16 +161,11 @@
 				
 				<!-- Oppgave 3 -->
 				<article class="box eksoppg" id="oppg3">
-					<h3 class="utdyp">Oppgave 3</h3>
+					<h3 class="done">Oppgave 3</h3>
 						<h4>Oppgaven</h4>
 							<p>Hva er Site Authority i forbindelse med SEO, og hvordan oppnår man dette?</p>
 						<h4>Løsningen</h4>
-							<p>Linker fra andre sider.</p>
-                    Site Authority<br />
-Hvor viktig er siden ( i henhold til søkemotorene)<br />
-Site Authority er forskjellige fra side til side på webstedet<br />
-for forskjellige søkeord<br />
-for forskjellige temaer
+                    <p>Domain Authority (tidligere Site Authority) måler hele domenet og subdomenet, ikke bare en enkelt side, Page Authority måler en enkelt side. Domain Authority og Page Authority er hvor bra en nettside rangerer og hvor sterk den er over tid.  Man oppnår (høyere Domain Authority og Page Authority) ved god SEO og gode linker fra andre sider.</p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
