@@ -68,12 +68,13 @@
                     <p></p>
                     <dl>
                         <dt>Title tags</dt><dd>Title tags er "ZiP - *sidenavn*" for alle sidene.</dd>
-                        <dt>Interne linker</dt><dd>Menyen med interne linker følger med til alle undersidene og er lik overalt.</dd>
+                        <dt>Interne linker</dt><dd>Menyen med interne linker følger med til alle undersidene og er lik overalt, men det er ingen breadcrumbs.</dd>
                         <dt>Innhold (der det faktisk er noe ordentlig innhold)</dt><dd>Innholdet på de forskjellige sidene (i main) er ikke helt unikt, fordi det er brukt samme innhold på flere sider.</dd>
                     </dl>
                     <h5>SEO informasjon (hva skal gjøres og hvorfor) og Teknisk implementasjon</h5>
                     <ul>
                         <li>Jeg ville begynt med å gjøre headeren enklere å lese for maskiner.</li>
+                        <li>Jeg ville ha lagt til breadcrumbs slik at brukeren har bedre oversikt over hvilken side hen er på.</li>
                         <li>Jeg ville ha hentet inn bare noen få artikler til home og sjekket at innholdet ellers bare er i main på en side, slik at innholdet blir unikt i main for alle sidene.</li>
                         <li>Gjøre en analyse av nøkkelord og sørge for at de viktigste nøkkelordene er nevnt på sidene.</li>
                         <li>Legge inn mer informasjon i meta taggen slik at det er mer informasjon enkelt tilgjengelig. Keywords, description, author osv. (Selv om ikke alt blir brukt direkte til SEO.)</li>
@@ -95,9 +96,9 @@
                     <p>Beskrivelsen skal være utfyllende og dekke alle viktige aspekter av Mikrodata. Om ønskelig kan du gjerne lage opp noen kode eksempler for å gjøre det enklere å beskrive vanskelig konsepter.</p>
 						<h4>Løsningen</h4>
                     <h5>Hva er det?</h5>
-                    <p>Merke informasjon. SEO. Universell utforming. Hva innholdet er og hvorfor det er der.</p>
+                    <p>Microdata er en måte å merke informasjon slik at vi kan fortelle hva innholdet er og hvorfor det er der.</p>
                     <h5>Hvordan brukes det?</h5>
-                    <p>Merke data, fortelle hva det er. Attributter på html elementene. Itemscope, itemtype, itemid, itemprop, itemref. <a href="http://ask.hiof.no/~michaeal/files/web/lectures/forelesningMicrodata.pdf">Microdata eksempelet er hentet fra forelesningsnotat om Microdata side 6.</a></p>
+                    <p>Det brukes ved å sette attributter på html elementer, slik som itemscope, itemtype, itemid, itemprop, itemref. <a href="http://ask.hiof.no/~michaeal/files/web/lectures/forelesningMicrodata.pdf">Microdata eksempelet er hentet fra forelesningsnotat om Microdata side 6.</a></p>
                     <blockquote cite="http://ask.hiof.no/~michaeal/files/web/lectures/forelesningMicrodata.pdf">
 <pre>
 &lt;section itemscope itemtype="http://schema.org/Person"&gt;
@@ -140,7 +141,7 @@
                         </section>
                     </blockquote>
                     <h5>Hvorfor er det viktig?</h5>
-                    <p>Google søk. Maskiner. SEO. Universell utforming. Maskinlesbarhet.</p>
+                    <p>Det er viktig for maskinlesbarhet, ved at maskiner kan forstå innholdet blir det enklere å gjøre google søk (SEO) og det blir bedre universell utforming.</p>
                     <h5>Bruksområder</h5>
                     <p>Mennesker, artikkler, oppskrifter, hendelser, breadcrumbs, meny, musikk.</p>
                     <!-- <div class="comment">
