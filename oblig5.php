@@ -44,6 +44,52 @@
                     Innleveringen består av å lage et PDF dokument eller en nettside med informasjon om arbeidet som er gjort. Det er svært viktig at dere dokumenterer hele prosessen når dere gjør det, dette da det er svært vanskelig å få screenshots av installasjonen etter at den er gjort. Innleveringen skal ha screenshots av arbeidet som blir gjort og vise hvilke modifikasjoner som er gjort i theme.<br />
                     Dere trenger ikke å levere den tekniske løsningen, men om du gjør mye utviklingsarbeid så lønner det seg å vise koden som er laget (dette kan telle positivt for stjerneantallet på siste oblig og i forbindelse med creds).</p>
 						<h4>Løsningen</h4>
+                    <h5>Installasjon av Wordpress</h5>
+                    <figure>
+                        <img src="image/wordpress/01download.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/02downloaded.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/03moved.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/04database.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/05language.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/06needToKnow.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/07setup.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/08runInstall.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/09siteInfo.png" />
+                        <figcaption>Btw, jeg er ikke så dum at jeg legger ut det faktiske passordet mitt, endret det etter at jeg tok printscreen =)</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/10installed.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/wordpress/11loggedIn.png" />
+                        <figcaption></figcaption>
+                    </figure>
+                    
 							<p></p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
