@@ -119,8 +119,12 @@
                             <figcaption>Jeg synes themet twentyten var mest likt det planlagte designet for ZiP og valgte derfor dette som utgangspunkt.</figcaption>
                         </figure>
                         <figure>
-                            <img src="" />
+                            <img src="image/wordpress/twentyten-zip.png" />
                             <figcaption>Laget et child-theme til twentyten med navnet zip.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="image/wordpress/github-zip.png" />
+                            <figcaption><a href="https://github.com/turidfs/twentyten-zip">Lastet opp child-themet til github.</a></figcaption>
                         </figure>
                         <figure>
                             <img src="" />
@@ -129,7 +133,7 @@
                     </section>
                     <section class="">
                         <h5>Plugins</h5>
-                        <p>De mest praktiske pluginsene å ha er blog (både til feed og til enkeltblog) og twitter feed samt linker til sosiale medier til footeren.</p>
+                        <p>De mest praktiske pluginsene å ha er blog (både til feed og til enkeltblog) og twitter feed samt linker til sosiale medier til footeren. Fant ikke plugin til blog. Installerte Facebook, SoundCloud Master, Twitter, YouTube.</p>
                         <figure>
                             <img src="" />
                             <figcaption></figcaption>
@@ -169,7 +173,23 @@
 				    <h4>Oppgaven</h4>
 				    <p>Hvilke konkrete råd om sikkerhet vil du gi til de som skal sette opp og drifte et CMS? Begrunn rådene med hvilke trusler de skal motvirke der det er nødvendig.</p>
 				    <h4>Løsningen</h4>
-				    <p></p>
+                    <h5>Sikkerhet</h5>
+                    <ul>
+                        <li>Løpende sikkerhetsoppdateringer
+                            <ul>
+                                <li>Nye svakheter</li>
+                                <li>Nye hacker angrep</li>
+                                <li>Generelle oppdateringer</li>
+                            </ul>
+                        </li>
+                        <li>CMS systemer er veldig store mål
+                            <ul>
+                                <li>Viktig med oppdateringer</li>
+                                <li>Viktig med sikkerhet</li>
+                                <li>Mange utviklere som passer på</li>
+                            </ul>
+                        </li>
+                    </ul>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -185,11 +205,16 @@
                 
                 <!-- Oppgave 3 -->
 				<article class="box eksoppg" id="oppg3">
-					<h3 class="solve">Oppgave 3</h3>
+					<h3 class="utdyp">Oppgave 3</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Gi en mest mulig presis forklaring på hva et CMS er. Hvilke fordeler og ulemper ser du ved å benytte et CMS for henholdsvis utviklere og sluttbrukere?</p>
 				    <h4>Løsningen</h4>
-				    <p></p>
+				    <h5>Hva er et CMS?</h5>
+				    <p>CMS er forkortelse for Content Management Systems. Det er et system for websider. Det er bygget på en database.</p>
+                    <h5>Hvilke fordeler er det ved å bruke et CMS?</h5>
+                    <p>Enkelt vedlikehold, fleksibelt. Redigering, forhåndsvisning, utvidbar funksjonalitet (plugins), templates (themes), versjonskontroll, brukerkontroll, automatiske oppdateringer, søk. Slipper å finne opp hjulet på nytt. Mange utviklere, enkelt å få hjelp. Skiller mellom innhold, funksjonalitet og design.</p>
+                    <h5>Hvilke ulemper er det ved å bruke et CMS?</h5>
+                    <p>Mindre frihet. Feil løsning kan medføre større kostnader. Behov for mye customization kan bli dyrt. Det er en standard som vil si at det fungerer på en bestemt måte, å få til noe annet kan være veldig mye jobb.</p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
