@@ -79,13 +79,13 @@
                         <li>Gjøre en analyse av nøkkelord og sørge for at de viktigste nøkkelordene er nevnt på sidene.</li>
                         <li>Legge inn mer informasjon i meta taggen slik at det er mer informasjon enkelt tilgjengelig. Keywords, description, author osv. (Selv om ikke alt blir brukt direkte til SEO.)</li>
                     </ul>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
+                        <p>1.1-1.2: kort men ok. 1.3-1.4: grei oversikt over hva som kan gjøres for å forberede nettsted.</p>
                         <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>med konkurrenter menes andre type nettsteder som tilbyr samme tjeneste. mangler kodesnutter.</p>
+                    </div>
 				</article>
                 
                 <!-- Oppgave 2 -->
@@ -144,13 +144,11 @@
                     <p>Det er viktig for maskinlesbarhet, ved at maskiner kan forstå innholdet blir det enklere å gjøre google søk (SEO) og det blir bedre universell utforming.</p>
                     <h5>Bruksområder</h5>
                     <p>Mennesker, artikkler, oppskrifter, hendelser, breadcrumbs, meny, musikk.</p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
-                        <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>god oversikt. </p>
+                    </div>
 				</article>
 				
 			</section>
@@ -167,13 +165,11 @@
 							<p>Hva er Site Authority i forbindelse med SEO, og hvordan oppnår man dette?</p>
 						<h4>Løsningen</h4>
                     <p>Domain Authority (tidligere Site Authority) måler hele domenet og subdomenet, ikke bare en enkelt side, Page Authority måler en enkelt side. Domain Authority og Page Authority er hvor bra en nettside rangerer og hvor sterk den er over tid.  Man oppnår (høyere Domain Authority og Page Authority) ved god SEO og gode linker fra andre sider.</p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
-                        <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>bra.</p>
+                    </div>
 				</article>
                 
                 <!-- Oppgave 4 -->
@@ -206,13 +202,11 @@
                             </ul>
                         </li>
                     </ul>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
-                        <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>bra.</p>
+                    </div>
 				</article>
                 
                 <!-- Oppgave 5 -->
@@ -222,13 +216,11 @@
 							<p>Hvorfor kan vi (som oftest) ikke se resultater av SEO (Search engine optimization) umiddelbart?</p>
 						<h4>Løsningen</h4>
 							<p>Google må indeksere siden på nytt. Vi kan heller ikke være helt sikre på at de resultatene vi får når vi først får resultater er på grunn av noe vi har gjort, det kan være en av våre konkurrenter har gjort noe sikkelig dumt, og heller ikke hva vi eventuelt har gjort riktig (eller kanskje til og med noe feil/dumt).</p>
-                    <!-- <div class="comment">
+                    <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
-                        <p></p>
-                        <h6>Admin, negativt</h6>
-                        <p></p>
-                    </div> -->
+                        <p>bra.</p>
+                    </div>
 				</article>
 				
 			</section>

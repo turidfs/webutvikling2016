@@ -135,13 +135,108 @@
                         <h5>Plugins</h5>
                         <p>De mest praktiske pluginsene å ha er blog (både til feed og til enkeltblog) og twitter feed samt linker til sosiale medier til footeren. Fant ikke plugin til blog. Installerte Facebook, SoundCloud Master, Twitter, YouTube.</p>
                         <figure>
-                            <img src="" />
-                            <figcaption></figcaption>
+                            <img src="image/wordpress/plugins.png" />
+                            <figcaption>Plugins installert og aktivert.</figcaption>
                         </figure>
                     </section>
                     <section class="">
                         <h5>Widgets</h5>
                         <p>Nødvendige widgets er sidebar, footer og header.</p>
+                        <ul>
+                            <li>Header
+                                <ul>
+                                    <li>Logo</li>
+                                    <li>Meny (knapp)</li>
+                                </ul>
+                            </li>
+                            <li>Sidebar
+                                <ul>
+                                    <li>Tweets</li>
+                                    <li>Tacks</li>
+                                </ul>
+                            </li>
+                            <li>Footer
+                                <ul>
+                                    <li>Andre sider
+                                        <ul>
+                                            <li>RSS</li>
+                                            <li>Twitter</li>
+                                            <li>Facebook</li>
+                                            <li>Youtube</li>
+                                            <li>Soundcloud</li>
+                                        </ul>
+                                    </li>
+                                    <li>Bandmedlemmenes egne sider
+                                        <ul>
+                                            <li>Natalie
+                                                <ul>
+                                                    <li>Twitter</li>
+                                                    <li>Facebook</li>
+                                                    <li>Youtube</li>
+                                                </ul>
+                                            </li>
+                                            <li>Fredrik
+                                                <ul>
+                                                    <li>Twitter</li>
+                                                    <li>Facebook</li>
+                                                    <li>Youtube</li>
+                                                </ul>
+                                            </li>
+                                            <li>Irene
+                                                <ul>
+                                                    <li>Twitter</li>
+                                                    <li>Facebook</li>
+                                                    <li>Youtube</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Copyright</li>
+                                    <li>Privacy terms</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>Noen undersider som kan ha behov for widgets</p>
+                        <ul>
+                            <li>Home
+                                <ul>
+                                    <li>Kalender (events)</li>
+                                </ul>
+                            </li>
+                            <li>About
+                                <ul>
+                                    <li>Bilder</li>
+                                </ul>
+                            </li>
+                            <li>Media
+                                <ul>
+                                    <li>Bilder</li>
+                                    <li>Videos</li>
+                                    <li>Tracks</li>
+                                </ul>
+                            </li>
+                            <li>Social
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li>Blog
+                                <ul>
+                                    <li>Bloggerne</li>
+                                    <li>Blogposter</li>
+                                </ul>
+                            </li>
+                            <li>Events
+                                <ul>
+                                    <li>Kalender</li>
+                                </ul>
+                            </li>
+                            <li>Shop
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </li>
+                        </ul>
                         <figure>
                             <img src="" />
                             <figcaption></figcaption>
