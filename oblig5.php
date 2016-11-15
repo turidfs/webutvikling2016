@@ -268,23 +268,20 @@
 				    <h4>Oppgaven</h4>
 				    <p>Hvilke konkrete råd om sikkerhet vil du gi til de som skal sette opp og drifte et CMS? Begrunn rådene med hvilke trusler de skal motvirke der det er nødvendig.</p>
 				    <h4>Løsningen</h4>
-                    <h5>Sikkerhet</h5>
-                    <ul>
-                        <li>Løpende sikkerhetsoppdateringer
-                            <ul>
-                                <li>Nye svakheter</li>
-                                <li>Nye hacker angrep</li>
-                                <li>Generelle oppdateringer</li>
-                            </ul>
-                        </li>
-                        <li>CMS systemer er veldig store mål
-                            <ul>
-                                <li>Viktig med oppdateringer</li>
-                                <li>Viktig med sikkerhet</li>
-                                <li>Mange utviklere som passer på</li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <h5>Pcen du bruker som admin</h5>
+                    <p>Bruk en oppdatert pc med et nyere operativsystem og sikkerhetsoppdateringene til dette installert.</p>
+                    <h5>CMS systemet</h5>
+                    <p>ALLTID last ned sikkerhetsoppdateringene, sjekk etter oppdateringer helst daglig. Sikkerhetsoppdateringer kommer løpende på grunn av nye svakheter, nye hacker angrep og generelt sett om noe oppdages.</p>
+                    <p>Vær forsiktig med Themes og Plugins. Det tryggeste er å finne alt fra f.eks. Wordpress, MEN selv ikke dette er 100% sikkert, følg med på oppdateringer til temaet ditt eller pluginsene dine.</p>
+                    <p>Dersom det er mulig kan man gjerne bytte urlen for login til noe som ikke er helt normalt og kanskje heller ikke logisk.</p>
+                    <h5>Brukere, brukernavn og passord</h5>
+                    <p>Ikke gi folk feil tilgang, for mye, for lenge etc. Dersom noen slutter eller får sparken, fjern personens rettigheter i systemet umiddelbart. I hovedsak behøver ikke brukeren tilgang på bestemte deler av systemet dersom de klarer jobben sin uten. Jo færre brukere det er med høyt rettighetsnivå, jo lavere er sannsynligheten for å bli hacket.</p>
+                    <p>Ikke bruk standard brukernavn (admin, administrator, webmaster, osv). Det er vanskeligere å hacke noen når man ikke vet hva brukernavnet er.</p>
+                    <p>Lag sterke passord, helst random. Ikke lag passord som kan kobles til deg personlig, dersom du har en datter som heter Amalie og hun har bursdag femte februar er Amalie0502 et usikkert passord, unngå generelt sett datoer og favoritter. Begrens hvor mange mulige forsøk man kan gjøre på å taste inn et passord før brukeren blir låst ute i en bestemt eller ubestemt tidsperiode, f.eks. om man tegner feil mønster på en telefon for mange ganger må man vente 5 minutter før man får prøve igjen, deretter 15min, deretter 1 time, osv.</p>
+                    <h5>Backup</h5>
+                    <p>Ikke om man blir hacket, når man blir hacket. Bruk backup for å rydde opp, MEN sjekk at backupen ikke inneholder samme feilen.</p>
+                    <h5>Redigeringer i systemet</h5>
+                    <p>Lag en egen installasjon for å teste endringer som gjøres i systemet, da unngår man enkelte problemer som f.eks. å kræsje hele siden eller lage enkelte sikkerhetshull.</p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
