@@ -5,21 +5,18 @@
 		<meta charset="UTF-8"/>
 		<link href="css/webcss_v2.css" type="text/css" rel="stylesheet" />
         <style>
-            .installasjon img {
+            .installasjon img, .themes img {
                 border: 5px solid black;
             }
-            .installasjon a img {
-                border-color: blue;
-            }
-            .installasjon figure {
+            .installasjon figure, .themes figure {
                 width: 40%;
                 display: block;
             }
-            .installasjon {
+            .installasjon, .themes {
                 display: flex;
                 flex-wrap: wrap;
             }
-            .installasjon h5 {
+            .installasjon h5, .themes h5 {
                 width: 100%;
             }
         </style>
@@ -62,56 +59,90 @@
                     <p>NB!<br />
                     Innleveringen består av å lage et PDF dokument eller en nettside med informasjon om arbeidet som er gjort. Det er svært viktig at dere dokumenterer hele prosessen når dere gjør det, dette da det er svært vanskelig å få screenshots av installasjonen etter at den er gjort. Innleveringen skal ha screenshots av arbeidet som blir gjort og vise hvilke modifikasjoner som er gjort i theme.<br />
                     Dere trenger ikke å levere den tekniske løsningen, men om du gjør mye utviklingsarbeid så lønner det seg å vise koden som er laget (dette kan telle positivt for stjerneantallet på siste oblig og i forbindelse med creds).</p>
-						<h4>Løsningen</h4>
+				    <h4>Løsningen</h4>
+                    <p>I denne oppgaven tar jeg utgangspunkt i siden jeg og gruppa mi laget i oblig 2 og 3. <a href="http://www.it-stud.hiof.no/~turidfs/zip2/index.php">Zelda in Park</a></p>
                     <section class="installasjon">
                         <h5>Installasjon av Wordpress</h5>
                             <figure>
-                                <figcaption><a href="https://wordpress.org/download/">1. Last ned Wordpress</a></figcaption>
                                 <img src="image/wordpress/01download.png" />
+                                <figcaption><a href="https://wordpress.org/download/">1. Last ned Wordpress</a></figcaption>
                             </figure>
                         <figure>
-                            <figcaption>2. Velg Wordpress mappa i zip fila.</figcaption>
                             <img src="image/wordpress/02downloaded.png" />
+                            <figcaption>2. Velg Wordpress mappa i zip fila.</figcaption>
                         </figure>
                         <figure>
-                            <figcaption>3. Plasser Wordpress mappa i ønsket mappe</figcaption>
                             <img src="image/wordpress/03moved.png" />
+                            <figcaption>3. Plasser Wordpress mappa i ønsket mappe</figcaption>
                         </figure>
                         <figure>
-                            <figcaption><a href="\../phpmyadmin">4. Lag en database</a> (localhost/phpmyadmin)</figcaption>
                             <img src="image/wordpress/04database.png" />
+                            <figcaption><a href="\../phpmyadmin">4. Lag en database</a> (localhost/phpmyadmin)</figcaption>
                         </figure>
                         <figure>
-                            <figcaption>5. Velg språk</figcaption>
                             <img src="image/wordpress/05language.png" />
+                            <figcaption>5. Velg språk</figcaption>
                         </figure>
                         <figure>
-                            <figcaption>6. Oversikt over informasjonen du trenger i neste steg</figcaption>
                             <img src="image/wordpress/06needToKnow.png" />
+                            <figcaption>6. Oversikt over informasjonen du trenger i neste steg</figcaption>
                         </figure>
                         <figure>
-                            <figcaption>7. Registrer informasjonen</figcaption>
                             <img src="image/wordpress/07setup.png" />
+                            <figcaption>7. Registrer informasjonen</figcaption>
                         </figure>
                         <figure>
-                            <figcaption>8. Kjør installasjonen</figcaption>
                             <img src="image/wordpress/08runInstall.png" />
+                            <figcaption>8. Kjør installasjonen</figcaption>
                         </figure>
                         <figure>
-                            <figcaption>9. Velg navn for nettsiden og brukerinformasjon</figcaption>
                             <img src="image/wordpress/09siteInfo.png" />
+                            <figcaption>9. Velg navn for nettsiden og brukerinformasjon</figcaption>
                         </figure>
                         <figure>
-                            <figcaption>10. Log inn</figcaption>
                             <img src="image/wordpress/10installed.png" />
+                            <figcaption>10. Log inn</figcaption>
                         </figure>
                         <figure>
-                            <figcaption>11. Gjør endringene dine</figcaption>
                             <img src="image/wordpress/11loggedIn.png" />
+                            <figcaption>11. Gjør endringene dine</figcaption>
                         </figure>
                     </section>
-                    
-							<p></p>
+                    <section class="themes">
+                        <h5>Themes</h5>
+                        <figure>
+                            <img src="image/wordpress/wordpressThemes.png" />
+                            <figcaption>Installerte alle twenty-something themene</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="image/wordpress/twentyten.png" />
+                            <figcaption>Jeg synes themet twentyten var mest likt det planlagte designet for ZiP og valgte derfor dette som utgangspunkt.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="" />
+                            <figcaption>Laget et child-theme til twentyten med navnet zip.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="" />
+                            <figcaption></figcaption>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <h5>Plugins</h5>
+                        <p>De mest praktiske pluginsene å ha er blog (både til feed og til enkeltblog) og twitter feed samt linker til sosiale medier til footeren.</p>
+                        <figure>
+                            <img src="" />
+                            <figcaption></figcaption>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <h5>Widgets</h5>
+                        <p>Nødvendige widgets er sidebar, footer og header.</p>
+                        <figure>
+                            <img src="" />
+                            <figcaption></figcaption>
+                        </figure>
+                    </section>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -135,10 +166,10 @@
 				<!-- Oppgave 2 -->
 				<article class="box eksoppg" id="oppg2">
 					<h3 class="solve">Oppgave 2</h3>
-						<h4>Oppgaven</h4>
-							<p>Hvilke konkrete råd om sikkerhet vil du gi til de som skal sette opp og drifte et CMS? Begrunn rådene med hvilke trusler de skal motvirke der det er nødvendig.</p>
-						<h4>Løsningen</h4>
-							<p></p>
+				    <h4>Oppgaven</h4>
+				    <p>Hvilke konkrete råd om sikkerhet vil du gi til de som skal sette opp og drifte et CMS? Begrunn rådene med hvilke trusler de skal motvirke der det er nødvendig.</p>
+				    <h4>Løsningen</h4>
+				    <p></p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -155,10 +186,10 @@
                 <!-- Oppgave 3 -->
 				<article class="box eksoppg" id="oppg3">
 					<h3 class="solve">Oppgave 3</h3>
-						<h4>Oppgaven</h4>
-							<p>Gi en mest mulig presis forklaring på hva et CMS er. Hvilke fordeler og ulemper ser du ved å benytte et CMS for henholdsvis utviklere og sluttbrukere?</p>
-						<h4>Løsningen</h4>
-							<p></p>
+				    <h4>Oppgaven</h4>
+				    <p>Gi en mest mulig presis forklaring på hva et CMS er. Hvilke fordeler og ulemper ser du ved å benytte et CMS for henholdsvis utviklere og sluttbrukere?</p>
+				    <h4>Løsningen</h4>
+				    <p></p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
@@ -182,8 +213,8 @@
                         <li>Det Norge her gjør er lignende det flere land alt har gjort eller står på trappene for å gjøre. Hva tror du betydningen blir for standarder og verktøy/teknologi i et større perspektiv.</li>
                     </ol>
                     <p>(Du kan gjerne svare på a og b sammen, men la det gå frem hva som hører til hvilken vinkling av spørsmålet)</p>
-						<h4>Løsningen</h4>
-							<p></p>
+				    <h4>Løsningen</h4>
+				    <p></p>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>

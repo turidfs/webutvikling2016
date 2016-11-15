@@ -11,11 +11,12 @@
         <li><a href="/../skoleside/prosjekter.php">Prosjekter</a></li>
     </ul>
     <ul>
-        <li><a href="oblig1.php">Oblig 1</a></li>
-        <li><a href="oblig2.php">Oblig 2</a></li>
-        <li><a href="oblig3.php">Oblig 3</a></li>
-        <li><a href="oblig4.php">Oblig 4</a></li>
-        <li><a href="oblig5.php">Oblig 5</a></li>
+        <li><a href="oblig1.php">Oblig 1</a> - <a href="http://www.it-stud.hiof.no/~turidfs/webutvikling2016/oblig1.php">På ask serveren</a></li>
+        <li><a href="oblig2.php">Oblig 2</a> - <a href="http://www.it-stud.hiof.no/~turidfs/webutvikling2016/oblig2.php">På ask serveren</a></li>
+        <li><a href="oblig3.php">Oblig 3</a> - <a href="http://www.it-stud.hiof.no/~turidfs/webutvikling2016/oblig3.php">På ask serveren</a></li>
+        <li><a href="oblig4.php">Oblig 4</a> - <a href="http://www.it-stud.hiof.no/~turidfs/webutvikling2016/oblig4.php">På ask serveren</a></li>
+        <li><a href="oblig5.php">Oblig 5</a> - <a href="http://www.it-stud.hiof.no/~turidfs/webutvikling2016/oblig5.php">På ask serveren</a></li>
+        <li><a href="http://www.it-stud.hiof.no/~turidfs/zip2/index.php">ZiP</a></li>
     </ul>
 </nav>
 Øverst til høyre er det en fixed box med snarvei til hver enkelt oppgave.
