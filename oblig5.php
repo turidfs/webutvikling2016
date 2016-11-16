@@ -5,18 +5,18 @@
 		<meta charset="UTF-8"/>
 		<link href="css/webcss_v2.css" type="text/css" rel="stylesheet" />
         <style>
-            .installasjon img, .themes img {
+            #installasjon img, #themes img {
                 border: 5px solid black;
             }
-            .installasjon figure, .themes figure {
+            #installasjon figure, #themes figure {
                 width: 40%;
                 display: block;
             }
-            .installasjon, .themes {
+            #installasjon, #themes {
                 display: flex;
                 flex-wrap: wrap;
             }
-            .installasjon h5, .themes h5 {
+            #installasjon h5, #themes h5 {
                 width: 100%;
             }
         </style>
@@ -61,7 +61,7 @@
                     Dere trenger ikke å levere den tekniske løsningen, men om du gjør mye utviklingsarbeid så lønner det seg å vise koden som er laget (dette kan telle positivt for stjerneantallet på siste oblig og i forbindelse med creds).</p>
 				    <h4>Løsningen</h4>
                     <p>I denne oppgaven tar jeg utgangspunkt i siden jeg og gruppa mi laget i oblig 2 og 3. <a href="http://www.it-stud.hiof.no/~turidfs/zip2/index.php">Zelda in Park</a></p>
-                    <section class="installasjon">
+                    <section id="installasjon">
                         <h5>Installasjon av Wordpress</h5>
                             <figure>
                                 <img src="image/wordpress/01download.png" />
@@ -108,7 +108,7 @@
                             <figcaption>11. Gjør endringene dine</figcaption>
                         </figure>
                     </section>
-                    <section class="themes">
+                    <section id="themes">
                         <h5>Themes</h5>
                         <figure>
                             <img src="image/wordpress/wordpressThemes.png" />
@@ -126,20 +126,32 @@
                             <img src="image/wordpress/github-content.png" />
                             <figcaption><a href="https://github.com/turidfs/wp-content">Lastet opp wp-content til github.</a></figcaption>
                         </figure>
+                        <p>Byttet fra twentyten til twentyfourteen pga responsivitet.</p>
                         <figure>
                             <img src="" />
                             <figcaption></figcaption>
                         </figure>
                     </section>
-                    <section class="">
+                    <section id="plugins">
                         <h5>Plugins</h5>
-                        <p>De mest praktiske pluginsene å ha er blog (både til feed og til enkeltblog) og twitter feed samt linker til sosiale medier til footeren. Fant ikke plugin til blog. Installerte Facebook, SoundCloud Master, Twitter, YouTube.</p>
+                        <p>De mest praktiske pluginsene å ha er blog (både til feed og til enkeltblog) og twitter feed samt linker til sosiale medier til footeren. Fant ikke plugin til blog. Installerte Facebook, SoundCloud Master, Twitter og YouTube.</p>
                         <figure>
                             <img src="image/wordpress/plugins.png" />
                             <figcaption>Plugins installert og aktivert.</figcaption>
                         </figure>
+                        <p>Har lagt til POWr Twitter Feed også.</p>
+                        <figure>
+                            <img src="image/wordpress/contentsidebar.png" />
+                            <img src="image/wordpress/twitter.png" />
+                            <img src="image/wordpress/soundcloud.png" />
+                            <figcaption>Har brukt twitter follow button, twitter feed og Soundcloud Master i den ene Content Sidebar.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="" />
+                            <figcaption></figcaption>
+                        </figure>
                     </section>
-                    <section class="">
+                    <section id="widgets">
                         <h5>Widgets</h5>
                         <p>Nødvendige widgets er sidebar, footer og header.</p>
                         <ul>
@@ -237,6 +249,18 @@
                                 </ul>
                             </li>
                         </ul>
+                        <figure>
+                            <img src="image/wordpress/widgetsetup.png" />
+                            <figcaption>Har brukt tre widget områder. Content Sidebar består av plugins og denne er det da bilde av lenger opp.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="image/wordpress/primarysidebar.png" />
+                            <figcaption>Dette er widgeten primary sidebar.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="image/wordpress/footer.png" />
+                            <figcaption>Dette er widgeten footer.</figcaption>
+                        </figure>
                         <figure>
                             <img src="" />
                             <figcaption></figcaption>
@@ -366,7 +390,14 @@
 		<aside class="quick box">
 			<ul>
 				<li><a href="#top">Top</a></li>
-				<li><a href="#oppg1">1</a></li>
+				<li><a href="#oppg1">1</a>
+                    <ul>
+                        <li><a href="#installasjon">Installasjon</a></li>
+                        <li><a href="#themes">Themes</a></li>
+                        <li><a href="#plugins">Plugins</a></li>
+                        <li><a href="#widgets">Widgets</a></li>
+                    </ul>
+                </li>
 				<li><a href="#oppg2">2</a></li>
 				<li><a href="#oppg3">3</a></li>
 				<li><a href="#oppg4">4</a></li>
