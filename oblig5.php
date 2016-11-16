@@ -126,7 +126,15 @@
                             <img src="image/wordpress/github-content.png" />
                             <figcaption><a href="https://github.com/turidfs/wp-content">Lastet opp wp-content til github.</a></figcaption>
                         </figure>
-                        <p>Byttet fra twentyten til twentyfourteen pga responsivitet.</p>
+                        <p>Byttet fra twentyten til twentyfourteen pga responsivitet. I child themet har jeg endret på et par tagger (byttet fra div til main og aside), endret bakgrunnsfarge og tekstfarge, og endret skrifttypen i headeren for siden. <a href="https://github.com/turidfs/wp-content/blob/master/themes/twentyfourteen-zip/style.css">Her er direktelink til fila med alle endringene jeg har gjort i css</a>, <a href="https://github.com/turidfs/wp-content/tree/master/themes/twentyfourteen-zip">og her er selve mappa for child themet</a>.</p>
+                        <figure>
+                            <img src="image/wordpress/before.png" />
+                            <figcaption>Før</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="image/wordpress/after.png" />
+                            <figcaption>Etter</figcaption>
+                        </figure>
                         <figure>
                             <img src="" />
                             <figcaption></figcaption>
