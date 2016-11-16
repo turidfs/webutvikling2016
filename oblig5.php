@@ -124,7 +124,7 @@
                         </figure>
                         <figure>
                             <img src="image/wordpress/github-zip.png" />
-                            <figcaption><a href="https://github.com/turidfs/twentyten-zip">Lastet opp child-themet til github.</a></figcaption>
+                            <figcaption><a href="https://github.com/turidfs/wp-content">Lastet opp wp-content til github.</a></figcaption>
                         </figure>
                         <figure>
                             <img src="" />
