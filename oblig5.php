@@ -123,7 +123,7 @@
                             <figcaption>Laget et child-theme til twentyten med navnet zip.</figcaption>
                         </figure>
                         <figure>
-                            <img src="image/wordpress/github-zip.png" />
+                            <img src="image/wordpress/github-content.png" />
                             <figcaption><a href="https://github.com/turidfs/wp-content">Lastet opp wp-content til github.</a></figcaption>
                         </figure>
                         <figure>
@@ -322,7 +322,7 @@
                 
                 <!-- Oppgave 4 -->
 				<article class="box eksoppg" id="oppg4">
-					<h3 class="solve">Oppgave 4</h3>
+					<h3 class="utdyp">Oppgave 4</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Norge følger etter en rekke land og innfører nå lovgivning som skal sikre universell utforming av bl.a. nettsider. (<a href="http://lovdata.no/dokument/SF/forskrift/2013-06-21-732" target="_blank">http://lovdata.no/dokument/SF/forskrift/2013-06-21-732</a>) For oppgaven er §1,2,4,6,7 og 11 spesielt interessant. Se bort i fra det som står ang. automater.</p>
                     <ol class="listLitenBokst">
@@ -333,8 +333,19 @@
 				    <h4>Løsningen</h4>
 				    <p></p>
                     <ol class="listLitenBokst">
-                        <li></li>
-                        <li></li>
+                        <li>Jeg tror det vil skje mest på lang sikt, fordi folk blant annet ikke er veldig glad i forandringer.
+                            <ul>
+                                <li>Kort sikt: Mer å lære for utviklere. For brukere vil mest sannsynlig en side her og en side der bli litt og litt bedre ettersom de oppdateres.</li>
+                                <li>Lang sikt: Det kommer mest sannsynlig til å bli litt trøbbel hos en del bransjer mot slutten av 2020 fordi alle IKT løsninger skal være universelt utformet innen 1. januar 2021, dette vil igjen mest sannsynlig bety mye jobber for utviklere. Det burde bli enklere for funksjonshemmede å gjøre ting selv.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>Standarder: Det må lages standarer for hva som er bra universell utforming.</li>
+                                <li>Teknologi:</li>
+                                <li>Verktøy:</li>
+                            </ul>
+                        </li>
                     </ol>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
