@@ -264,7 +264,7 @@
 				
 				<!-- Oppgave 2 -->
 				<article class="box eksoppg" id="oppg2">
-					<h3 class="solve">Oppgave 2</h3>
+					<h3 class="utdyp">Oppgave 2</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Hvilke konkrete råd om sikkerhet vil du gi til de som skal sette opp og drifte et CMS? Begrunn rådene med hvilke trusler de skal motvirke der det er nødvendig.</p>
 				    <h4>Løsningen</h4>
@@ -332,6 +332,10 @@
                     <p>(Du kan gjerne svare på a og b sammen, men la det gå frem hva som hører til hvilken vinkling av spørsmålet)</p>
 				    <h4>Løsningen</h4>
 				    <p></p>
+                    <ol class="listLitenBokst">
+                        <li></li>
+                        <li></li>
+                    </ol>
                     <!-- <div class="comment">
                         <h5>Feedback</h5>
                         <h6>Admin, positivt</h6>
