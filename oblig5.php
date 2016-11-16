@@ -40,7 +40,7 @@
 				
 				<!-- Oppgave 1 -->
 				<article class="box oppg" id="oppg1">
-					<h3 class="solve">Oppgave 1</h3>
+					<h3 class="done">Oppgave 1</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Lag din egen WordPress side der du tester ut det å bruke et CMS system. Dere skal enten lage en egen theme fra bunn eller gjøre ønskede endringer på en eksisterende theme. Det kan være ganske avansert å lage et theme fra bunn av, så for de fleste vil det være nok å gjøre endringer i et eksisterende theme dere finner i WordPress.org theme repository eller andre steder på nett.</p>
                     <p>Det vil være enklest å kjøre WordPress lokalt på egen maskin i WAMP (Windows) eller MAMP (Mac) som vist i forelesningen. Da det ikke skal leveres en link til WordPress siden så vil det ikke være nødvendig å flytte lokal installasjon til en server. Du kan i oppgaven IKKE bruke WordPress.com da denne løsningen ikke gir tilgang til å gjøre endringer i themes eller installere selv valgte plugins. Ask.hiof.no er et dårlig alternativ for WordPress grunnet noen rettighetsproblemer.</p>
@@ -161,101 +161,21 @@
                     </section>
                     <section id="widgets">
                         <h5>Widgets</h5>
-                        <p>Nødvendige widgets er sidebar, footer og header.</p>
+                        <p>Ønskede widgets er sidebar, footer og header.</p>
                         <ul>
-                            <li>Header
-                                <ul>
-                                    <li>Logo</li>
-                                    <li>Meny (knapp)</li>
-                                </ul>
-                            </li>
-                            <li>Sidebar
-                                <ul>
-                                    <li>Tweets</li>
-                                    <li>Tacks</li>
-                                </ul>
-                            </li>
-                            <li>Footer
-                                <ul>
-                                    <li>Andre sider
-                                        <ul>
-                                            <li>RSS</li>
-                                            <li>Twitter</li>
-                                            <li>Facebook</li>
-                                            <li>Youtube</li>
-                                            <li>Soundcloud</li>
-                                        </ul>
-                                    </li>
-                                    <li>Bandmedlemmenes egne sider
-                                        <ul>
-                                            <li>Natalie
-                                                <ul>
-                                                    <li>Twitter</li>
-                                                    <li>Facebook</li>
-                                                    <li>Youtube</li>
-                                                </ul>
-                                            </li>
-                                            <li>Fredrik
-                                                <ul>
-                                                    <li>Twitter</li>
-                                                    <li>Facebook</li>
-                                                    <li>Youtube</li>
-                                                </ul>
-                                            </li>
-                                            <li>Irene
-                                                <ul>
-                                                    <li>Twitter</li>
-                                                    <li>Facebook</li>
-                                                    <li>Youtube</li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>Copyright</li>
-                                    <li>Privacy terms</li>
-                                </ul>
-                            </li>
+                            <li>Header: Logo og meny (knapp)</li>
+                            <li>Sidebar: Tweets og Tacks</li>
+                            <li>Footer: Andre sider (RSS, Twitter, Facebook, Youtube, Soundcloud), Bandmedlemmenes egne sider for Twitter, Facebook og Youtube. Copyright, Privacy terms</li>
                         </ul>
                         <p>Noen undersider som kan ha behov for widgets</p>
                         <ul>
-                            <li>Home
-                                <ul>
-                                    <li>Kalender (events)</li>
-                                </ul>
-                            </li>
-                            <li>About
-                                <ul>
-                                    <li>Bilder</li>
-                                </ul>
-                            </li>
-                            <li>Media
-                                <ul>
-                                    <li>Bilder</li>
-                                    <li>Videos</li>
-                                    <li>Tracks</li>
-                                </ul>
-                            </li>
-                            <li>Social
-                                <ul>
-                                    <li></li>
-                                </ul>
-                            </li>
-                            <li>Blog
-                                <ul>
-                                    <li>Bloggerne</li>
-                                    <li>Blogposter</li>
-                                </ul>
-                            </li>
-                            <li>Events
-                                <ul>
-                                    <li>Kalender</li>
-                                </ul>
-                            </li>
-                            <li>Shop
-                                <ul>
-                                    <li></li>
-                                </ul>
-                            </li>
+                            <li>Home (kalender/events)</li>
+                            <li>About (Bilder)</li>
+                            <li>Media (Bilder, Videos, Tracks)</li>
+                            <li>Social</li>
+                            <li>Blog (Bloggerne og Blogposter)</li>
+                            <li>Events (Kalender)</li>
+                            <li>Shop</li>
                         </ul>
                         <figure>
                             <img src="image/wordpress/widgetsetup.png" />
@@ -296,7 +216,7 @@
 				
 				<!-- Oppgave 2 -->
 				<article class="box eksoppg" id="oppg2">
-					<h3 class="utdyp">Oppgave 2</h3>
+					<h3 class="done">Oppgave 2</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Hvilke konkrete råd om sikkerhet vil du gi til de som skal sette opp og drifte et CMS? Begrunn rådene med hvilke trusler de skal motvirke der det er nødvendig.</p>
 				    <h4>Løsningen</h4>
@@ -329,7 +249,7 @@
                 
                 <!-- Oppgave 3 -->
 				<article class="box eksoppg" id="oppg3">
-					<h3 class="utdyp">Oppgave 3</h3>
+					<h3 class="done">Oppgave 3</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Gi en mest mulig presis forklaring på hva et CMS er. Hvilke fordeler og ulemper ser du ved å benytte et CMS for henholdsvis utviklere og sluttbrukere?</p>
 				    <h4>Løsningen</h4>
@@ -354,7 +274,7 @@
                 
                 <!-- Oppgave 4 -->
 				<article class="box eksoppg" id="oppg4">
-					<h3 class="utdyp">Oppgave 4</h3>
+					<h3 class="done">Oppgave 4</h3>
 				    <h4>Oppgaven</h4>
 				    <p>Norge følger etter en rekke land og innfører nå lovgivning som skal sikre universell utforming av bl.a. nettsider. (<a href="http://lovdata.no/dokument/SF/forskrift/2013-06-21-732" target="_blank">http://lovdata.no/dokument/SF/forskrift/2013-06-21-732</a>) For oppgaven er §1,2,4,6,7 og 11 spesielt interessant. Se bort i fra det som står ang. automater.</p>
                     <ol class="listLitenBokst">
