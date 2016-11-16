@@ -363,11 +363,10 @@
                                 <li>Lang sikt: Det kommer mest sannsynlig til å bli litt trøbbel hos en del bransjer mot slutten av 2020 fordi alle IKT løsninger skal være universelt utformet innen 1. januar 2021, dette vil igjen mest sannsynlig bety mye jobber for utviklere. Det burde bli enklere for funksjonshemmede å gjøre ting selv.</li>
                             </ul>
                         </li>
-                        <li>
+                        <li>Det er ikke sikkert at vinninga går opp i spinninga, selv om det blir et litt større publikum er det en viss sannsynlighet for at de økte kostnadene er litt større enn de økte gevinstene. Dette gjør det på den annen side enda viktigere å ha en lov om det.
                             <ul>
                                 <li>Standarder: Det må lages standarer for hva som er bra universell utforming.</li>
-                                <li>Teknologi:</li>
-                                <li>Verktøy:</li>
+                                <li>Teknologi og verktøy: De som har fokusert på teknologi og verktøy for utviklingshemmede kan lære bort eller selge varer til de som ikke har begynt med dette enda.</li>
                             </ul>
                         </li>
                     </ol>
